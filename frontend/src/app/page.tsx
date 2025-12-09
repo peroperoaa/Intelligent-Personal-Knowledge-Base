@@ -10,6 +10,8 @@ import { toast } from "sonner";
 import { motion } from "framer-motion";
 import { AuthModal } from "@/components/AuthModal";
 
+import ChatInterface from "@/components/ChatInterface";
+
 export default function Page() {
   const { isLoggedIn } = useContext(AuthContext);
   const destination = isLoggedIn ? "/notespage" : "/login";
@@ -135,6 +137,7 @@ export default function Page() {
 
   return (
       <div className="min-h-screen w-full bg-background">
+        <ChatInterface />
       </div>
   );
 }
