@@ -8,6 +8,7 @@ import { FileUpload } from "@/components/ui/file-upload";
 import axios from "axios";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
+import { AuthModal } from "@/components/AuthModal";
 
 export default function Page() {
   const { isLoggedIn } = useContext(AuthContext);
@@ -18,6 +19,7 @@ export default function Page() {
   const [showIntro, setShowIntro] = useState(true);
   const [progress, setProgress] = useState(0);
   const [showEnter, setShowEnter] = useState(false);
+  const [showLoginModal, setShowLoginModal] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -37,6 +39,11 @@ export default function Page() {
   }, []);
 
   const handleEnter = () => {
+    setShowLoginModal(true);
+  };
+
+  const handleAuthSuccess = () => {
+    setShowLoginModal(false);
     setShowIntro(false);
   };
 
@@ -98,23 +105,30 @@ export default function Page() {
                         </p>
                     </div>
                 ) : (
-                    <motion.div 
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="flex flex-col items-center"
-                    >
-                        <Image 
-                            src="/images/aag.png" 
-                            alt="铲铲宝典" 
-                            width={400} 
-                            height={133}
-                            className="mb-4 drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] cursor-pointer hover:scale-105 transition-transform duration-300"
-                            onClick={handleEnter}
-                        />
-                    </motion.div>
+                    !showLoginModal && (
+                        <motion.div 
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, ease: "easeOut" }}
+                            className="flex flex-col items-center"
+                        >
+                            <Image 
+                                src="/images/aag.png" 
+                                alt="铲铲宝典" 
+                                width={400} 
+                                height={133}
+                                className="mb-4 drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={handleEnter}
+                            />
+                        </motion.div>
+                    )
                 )}
             </div>
+            <AuthModal 
+                isOpen={showLoginModal} 
+                onClose={() => setShowLoginModal(false)} 
+                onSuccess={handleAuthSuccess} 
+            />
         </div>
      )
   }
