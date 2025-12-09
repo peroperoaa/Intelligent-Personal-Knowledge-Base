@@ -1,11 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useContext } from "react";
 import axios from "axios";
 import SearchBar from "@/components/ui/searchbar";
 import { toast } from "sonner";
 import React from "react";
 import "@/app/notespage/styles.css";
+import { AuthContext } from "@/app/contexts/AuthContext";
+import { Trash2 } from "lucide-react"; // Assuming lucide-react is available, or use text/emoji
+
 interface Document {
   id: string;
   topic: string;
@@ -18,6 +21,10 @@ interface Document {
 const DocumentsPage = () => {
   const [documents, setDocuments] = useState<Document[]>([]);
   const [loading, setLoading] = useState(false);
+  const { username } = useContext(AuthContext);
+
+  // Debugging logs
+  console.log("Current logged in username:", username);
 
   const fetchDocuments = async (query: string) => {
     if (!query.trim()) return;
@@ -63,13 +70,15 @@ const DocumentsPage = () => {
 
       {/* Document List */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {documents.map((doc) => (
+        {documents.map((doc) => {
+           const isOwner = username === doc.uploaded_by;
+           // console.log(`Doc: ${doc.topic}, UploadedBy: ${doc.uploaded_by}, CurrentUser: ${username}, IsOwner: ${isOwner}`);
+           return (
+          <div key={doc.id} className="relative group">
           <a
-            key={doc.id}
             href={doc.pdf_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300"
+            onClick={(e) => handleDownload(e, doc)}
+            className="block bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300 cursor-pointer h-full"
           >
             {doc.first_page_base64 ? (
               <img
@@ -88,7 +97,17 @@ const DocumentsPage = () => {
               Created: {new Date(doc.created_at).toLocaleDateString()}
             </p>
           </a>
-        ))}
+          {isOwner && (
+            <button
+              onClick={(e) => handleDelete(e, doc.id)}
+              className="absolute top-2 right-2 bg-red-500 text-white p-2 rounded-full hover:bg-red-600 z-20"
+              title="Delete Note"
+            >
+              <Trash2 size={16} />
+            </button>
+          )}
+          </div>
+        )})}
       </div>
     </div>
   );

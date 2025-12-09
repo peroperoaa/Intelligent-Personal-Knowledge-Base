@@ -3,15 +3,20 @@ import axios from "axios";
 import { createContext, useState, useEffect } from "react";
 interface AuthContextType {
     isLoggedIn: boolean;
+    username: string | null;
     setIsLoggedIn: (value: boolean) => void;
+    setUsername: (value: string | null) => void;
   }
 export const AuthContext = createContext<AuthContextType>({
     isLoggedIn: false,
+    username: null,
   setIsLoggedIn: () => {},
+  setUsername: () => {},
 });
 
 export const AuthProvider = ({ children }: { children: React.ReactNode}) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [username, setUsername] = useState<string | null>(null);
 
   useEffect(() => {
     const checkAuthStatus = async () => {
@@ -20,6 +25,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode}) => {
       const accessToken = localStorage.getItem("accessToken");
       if (!accessToken) {
         setIsLoggedIn(false);
+        setUsername(null);
         return;
       }
 
@@ -34,12 +40,15 @@ export const AuthProvider = ({ children }: { children: React.ReactNode}) => {
         console.log(response)
         if (response.status==200) {
           setIsLoggedIn(true);
+          setUsername(response.data.username);
         } else {
           setIsLoggedIn(false);
+          setUsername(null);
         }
       } catch (error) {
         console.error("Error checking auth status:", error);
         setIsLoggedIn(false);
+        setUsername(null);
       }
     };
 
@@ -47,7 +56,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode}) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ isLoggedIn, setIsLoggedIn }}>
+    <AuthContext.Provider value={{ isLoggedIn, setIsLoggedIn, username, setUsername }}>
       {children}
     </AuthContext.Provider>
   );

@@ -5,3 +5,4 @@ __pycache__/
 .papers
 .zed/
 .ropeproject/
+node_modules/

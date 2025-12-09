@@ -18,6 +18,8 @@ import os
 from dotenv import load_dotenv
 from datetime import timedelta
 load_dotenv()
+import pymysql
+pymysql.install_as_MySQLdb()
 import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -108,8 +110,16 @@ CACHES = {
         'TIMEOUT': 86400, 
     }
 }
-CELERY_BROKER_URL = os.getenv('REDIS_URL')
-CELERY_RESULT_BACKEND = CELERY_BROKER_URL
+# CELERY_BROKER_URL = os.getenv('REDIS_URL')
+# CELERY_RESULT_BACKEND = CELERY_BROKER_URL
+
+# Local development settings (No Docker/Redis)
+CELERY_TASK_ALWAYS_EAGER = True
+CELERY_TASK_EAGER_PROPAGATES = True
+CELERY_TASK_STORE_EAGER_RESULT = True
+CELERY_BROKER_URL = 'memory://'
+CELERY_RESULT_BACKEND = 'file:///' + str(BASE_DIR / 'celery_results').replace('\\', '/')
+
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 
@@ -122,9 +132,23 @@ cloudinary.config(
 )
 
 DATABASES = {
-    'default': dj_database_url.config(default=os.getenv('DB_URL'))
-    
 }
+
+# Support DATABASE configuration via DB_URL (e.g. mysql://user:pass@host:3306/dbname).
+# If DB_URL is provided in the environment, use dj_database_url to parse it. Otherwise
+# fall back to the local sqlite file `db.sqlite3` for development.
+db_url = os.getenv('DB_URL')
+if db_url:
+    DATABASES = {
+        'default': dj_database_url.config(default=db_url, conn_max_age=600)
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
@@ -169,7 +193,14 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_CREDENTIALS = True  # Required for cookies
-CORS_ALLOWED_ORIGINS = ['https://notecraft-zi3w.onrender.com','https://notecraft-backend-ag98.onrender.com', 'http://localhost:3000'] #peropero's change
+CORS_ALLOWED_ORIGINS = [
+    'https://notecraft-zi3w.onrender.com',
+    'https://notecraft-backend-ag98.onrender.com',
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'http://127.0.0.1:3000',
+    'http://127.0.0.1:3001'
+]
 CORS_ALLOW_METHODS = [
     "GET",
     "POST",
