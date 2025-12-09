@@ -42,7 +42,7 @@ const LoginPage = () => {
 
     try { 
       const response = await axios.post(
-        `https://notecraft-backend-ag98.onrender.com/api/login/`,
+        `http://localhost:8000/api/login/`, //peropero's change
         {
           username,
           password,

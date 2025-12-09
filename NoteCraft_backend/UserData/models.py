@@ -10,7 +10,7 @@ class Document(models.Model):
     pdf_public_id = models.CharField(max_length=500)  
     uploaded_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='documents')
     uploaded_at = models.DateTimeField(auto_now_add=True)
-    first_page=models.CharField()
+    first_page=models.TextField()
 
     def __str__(self):
         return self.topic

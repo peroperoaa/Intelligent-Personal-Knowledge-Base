@@ -1,22 +1,29 @@
-version: '3.9'
-
 services:
+  redis:
+    image: redis:7-alpine
+    container_name: notecraft_redis
+    ports:
+      - "6379:6379"
+    volumes: 
+      - redis_data:/data
+    restart: unless-stopped
+
   backend:
     build:
       context: ./NoteCraft_backend
       dockerfile: Dockerfile.web
     container_name: notecraft_backend
-    ports:
+    ports: 
       - "8000:8000"
     volumes:
       - ./NoteCraft_backend:/app
     env_file:
       - .env
     depends_on:
-      - redis  # Optional: Remove if cloud-based and not needed for startup ordering
+      - redis
 
-  celery:
-    build:
+  celery: 
+    build: 
       context: ./NoteCraft_backend
       dockerfile: Dockerfile.celery
     container_name: notecraft_celery
@@ -26,15 +33,19 @@ services:
       - .env
     depends_on:
       - backend
+      - redis  # Celery 通常也需要 Redis 作为消息队列
 
   frontend:
-    build:
+    build: 
       context: ./frontend
       dockerfile: Dockerfile
     container_name: notecraft_frontend
     ports:
       - "3000:3000"
-    volumes:
-      - ./frontend:/app
+    # volumes: 
+    #   - ./frontend:/app
     depends_on:
       - backend
+
+volumes:
+  redis_data:

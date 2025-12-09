@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="document",
             name="first_page",
-            field=models.CharField(default="null"),
+            field=models.TextField(default=""),
             preserve_default=False,
         ),
     ]

@@ -24,7 +24,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode}) => {
       }
 
       try {
-        const response = await axios.get(`https://notecraft-backend-ag98.onrender.com/auth-status/`, {
+        const response = await axios.get(`http://localhost:8000/auth-status/`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${accessToken}`,

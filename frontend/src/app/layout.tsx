@@ -59,7 +59,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
       }
 
       const response = await axios.post(
-        `https://notecraft-backend-ag98.onrender.com/logout/`,
+        `http://localhost:8000/logout/`,
         { refresh: refreshToken },
         {
           headers: {

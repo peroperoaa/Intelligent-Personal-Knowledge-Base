@@ -9,11 +9,11 @@ export const modifyContent = async (selectedText: string): Promise<string | null
     if (isImageMarkdown) {
       const matches = selectedText.match(imageRegex);
       const altText = matches ? matches[1] : "";
-      response = await axios.post(`https://notecraft-backend-ag98.onrender.com/modify_image/`, {
+      response = await axios.post(`http://localhost:8000/modify_image/`, {
         imgText: altText,
       });
     } else {
-      response = await axios.post(`https://notecraft-backend-ag98.onrender.com/modify_text/`, {
+      response = await axios.post(`http://localhost:8000/modify_text/`, {
         text: selectedText,
       });
     }

@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['notecraft-zi3w.onrender.com','notecraft-backend-ag98.onrender.com']
+ALLOWED_HOSTS = ['notecraft-zi3w.onrender.com','notecraft-backend-ag98.onrender.com', 'localhost', '127.0.0.1'] #peropero's change
 
 
 AUTH_USER_MODEL = 'UserData.User'
@@ -169,7 +169,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_CREDENTIALS = True  # Required for cookies
-CORS_ALLOWED_ORIGINS = ['https://notecraft-zi3w.onrender.com','https://notecraft-backend-ag98.onrender.com']
+CORS_ALLOWED_ORIGINS = ['https://notecraft-zi3w.onrender.com','https://notecraft-backend-ag98.onrender.com', 'http://localhost:3000'] #peropero's change
 CORS_ALLOW_METHODS = [
     "GET",
     "POST",

@@ -36,7 +36,7 @@ const SignupPage = () => {
 
     try {
       const response = await axios.post(
-        `https://notecraft-backend-ag98.onrender.com/api/signup/`,
+        `http://localhost:8000/api/signup/`, //peropero's change
         {
           username,
           password,

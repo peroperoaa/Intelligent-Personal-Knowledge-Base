@@ -26,7 +26,7 @@ const DocumentsPage = () => {
 
     try {
       const response = await axios.get(
-        `https://notecraft-backend-ag98.onrender.com/search_pdfs/?topic=${query}`
+        `http://localhost:8000/search_pdfs/?topic=${query}`
       );
       
       if (response.status === 204) {
