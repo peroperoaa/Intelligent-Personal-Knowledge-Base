@@ -31,12 +31,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
     const { username, password, confirmPassword } = formData;
 
     if (!username || !password) {
-      toast.error("All fields are required.");
+      toast.error("所有字段都是必填的。");
       return;
     }
 
     if (!isLogin && password !== confirmPassword) {
-      toast.error("Passwords do not match.");
+      toast.error("两次输入的密码不一致。");
       return;
     }
 
@@ -62,19 +62,19 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
           localStorage.setItem("refreshToken", data.refresh);
           localStorage.setItem("isLoggedIn", "true");
           setIsLoggedIn(true);
-          toast.success("Logged in successfully");
+          toast.success("登录成功");
           onSuccess();
         }
       } else {
         if (response.status === 201) {
-          toast.success("Signed up successfully. Please login.");
+          toast.success("注册成功，请登录。");
           setIsLogin(true);
           setFormData({ username: "", password: "", confirmPassword: "" });
         }
       }
     } catch (error) {
       console.error(error);
-      toast.error(isLogin ? "Login failed" : "Signup failed");
+      toast.error(isLogin ? "登录失败" : "注册失败");
     }
   };
 
@@ -103,7 +103,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
             </button>
 
             <h2 className="text-3xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-500">
-              {isLogin ? "Welcome Back" : "Join the Arena"}
+              {isLogin ? "欢迎回来弈士" : "加入竞技场"}
             </h2>
 
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -111,7 +111,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
                 <input
                   type="text"
                   name="username"
-                  placeholder="Username"
+                  placeholder="用户名"
                   value={formData.username}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-blue-500/50 text-white placeholder-gray-500 transition-colors"
@@ -121,7 +121,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
                 <input
                   type="password"
                   name="password"
-                  placeholder="Password"
+                  placeholder="密码"
                   value={formData.password}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-blue-500/50 text-white placeholder-gray-500 transition-colors"
@@ -135,7 +135,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
                   <input
                     type="password"
                     name="confirmPassword"
-                    placeholder="Confirm Password"
+                    placeholder="确认密码"
                     value={formData.confirmPassword}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:border-blue-500/50 text-white placeholder-gray-500 transition-colors"
@@ -147,18 +147,18 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
                 type="submit"
                 className="w-full py-3 px-4 bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white font-bold rounded-lg shadow-lg transform transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
-                {isLogin ? "Login" : "Sign Up"}
+                {isLogin ? "登录" : "注册"}
               </button>
             </form>
 
             <div className="mt-6 text-center">
               <p className="text-gray-400 text-sm">
-                {isLogin ? "Don't have an account? " : "Already have an account? "}
+                {isLogin ? "还没有账号？ " : "已有账号？ "}
                 <button
                   onClick={() => setIsLogin(!isLogin)}
                   className="text-blue-400 hover:text-blue-300 font-semibold underline decoration-transparent hover:decoration-blue-300 transition-all"
                 >
-                  {isLogin ? "Sign Up" : "Login"}
+                  {isLogin ? "去注册" : "去登录"}
                 </button>
               </p>
             </div>
