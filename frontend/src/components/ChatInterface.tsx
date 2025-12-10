@@ -1,12 +1,14 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import axios from "axios";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Send, Plus, User } from "lucide-react";
 import { motion } from "framer-motion";
+import { toast } from "sonner";
 
 interface Message {
   id: string;
@@ -39,16 +41,29 @@ export default function ChatInterface() {
     setInput("");
     setIsLoading(true);
 
-    // Simulate AI response (replace with actual API call later)
-    setTimeout(() => {
+    try {
+      const response = await axios.post("http://localhost:8000/ask_ai/", {
+        query: userMessage.content,
+      });
+
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: "assistant",
-        content: "这是一个模拟的回复。在实际应用中，这里将连接到后端 API 获取关于金铲铲之战的智能回答。",
+        content: response.data.answer || "抱歉，我没有找到相关信息。",
       };
       setMessages((prev) => [...prev, aiMessage]);
+    } catch (error) {
+      console.error("AI Error:", error);
+      toast.error("AI 服务暂时不可用");
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: "assistant",
+        content: "抱歉，我现在无法连接到大脑，请稍后再试。",
+      };
+      setMessages((prev) => [...prev, errorMessage]);
+    } finally {
       setIsLoading(false);
-    }, 1000);
+    }
   };
 
   useEffect(() => {

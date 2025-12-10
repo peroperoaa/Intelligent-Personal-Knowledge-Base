@@ -22,6 +22,8 @@ from rest_framework_simplejwt.exceptions import TokenError,AuthenticationFailed
 import fitz
 from django.core.files.uploadedfile import InMemoryUploadedFile
 from NoteMaker.myutils import index, pc
+from NoteMaker.ai_module import process_pdf_to_vector_db
+import tempfile
 
 load_dotenv()
 cloudinary.config(
@@ -76,8 +78,34 @@ class DocumentUploadView(APIView):
 
                 # Indexing Logic for Golden Spatula Knowledge Base
                 try:
+                    # 1. Ingest into ChromaDB (for AI Chat)
+                    file.seek(0)
+                    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_pdf:
+                        temp_pdf.write(file.read())
+                        temp_pdf_path = temp_pdf.name
+                    
+                    process_pdf_to_vector_db(temp_pdf_path)
+                    os.remove(temp_pdf_path)
+
+                    # 2. Existing Pinecone Logic (Optional, keeping for compatibility)
                     file.seek(0)
                     doc_pdf = fitz.open(stream=file.read(), filetype="pdf")
+                    text_content = ""
+                    for page in doc_pdf:
+                        text_content += page.get_text()
+                    
+                    # Chunking
+                    chunk_size = 1000
+                    chunks = [text_content[i:i+chunk_size] for i in range(0, len(text_content), chunk_size)]
+                    
+                    if pc: # Only if Pinecone is initialized
+                        vectors = []
+                        for i, chunk in enumerate(chunks):
+                            # ... existing embedding logic ...
+                            pass 
+                            # (I'm not modifying the complex pinecone logic deeply, just ensuring it doesn't break)
+                            # But wait, I need to match the exact string to replace.
+
                     text_content = ""
                     for page in doc_pdf:
                         text_content += page.get_text()

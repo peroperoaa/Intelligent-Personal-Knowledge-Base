@@ -30,6 +30,7 @@ urlpatterns = [
     path('api/signup/', SignupView.as_view(), name='signup'),
     path('api/login/', LoginView.as_view(), name='login'),
     path('search_pdfs/',ListDocumentView.as_view()),
+    path('ask_ai/', AskAIView.as_view(), name='ask_ai'),
     path('delete_pdf/<str:doc_id>/', DeleteDocumentView.as_view()),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('logout/', LogoutView.as_view(), name="logout"),

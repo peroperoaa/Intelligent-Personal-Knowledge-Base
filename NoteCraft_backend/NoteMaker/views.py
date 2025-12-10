@@ -13,10 +13,23 @@ import json
 from .tasks import generate_notes_task
 from celery.result import AsyncResult
 from NoteCraft_backend.celery import app
+from .ai_module import query_ai
 
 class HelloWorldView(APIView):
     def get(self, request:Request)->Response:
         return Response({"message": "Hello, world!"})
+
+class AskAIView(APIView):
+    def post(self, request: Request) -> Response:
+        query = request.data.get("query", "")
+        if not query:
+            return Response({"error": "Query is required"}, status=400)
+        
+        try:
+            result = query_ai(query)
+            return Response(result)
+        except Exception as e:
+            return Response({"error": str(e)}, status=500)
 
 class GenerateNoteView(APIView):
     def post(self, request:Request) -> Response:
