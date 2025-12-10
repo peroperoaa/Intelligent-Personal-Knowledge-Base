@@ -82,16 +82,33 @@ def get_context(topic:str,namespace:str)->Dict:
                 inputs=[topic],
                 parameters={"input_type": "query"},
             )[0].values
+        
+        # First attempt: Query the specific namespace
         results = index.query(
                 namespace=namespace,
                 vector=query_embedding,
                 top_k=3,
                 include_metadata=True
             )
-        if results.matches: # type: ignore
+        
+        matches = results.matches if results.matches else []
+        
+        # Second attempt: If no results and namespace is not 'game_mechanics', try 'game_mechanics' (default crawl namespace)
+        if not matches and namespace != 'game_mechanics':
+            print(f"No results in {namespace}, trying fallback to 'game_mechanics'")
+            results_fallback = index.query(
+                namespace='game_mechanics',
+                vector=query_embedding,
+                top_k=3,
+                include_metadata=True
+            )
+            if results_fallback.matches:
+                matches = results_fallback.matches
+
+        if matches: # type: ignore
                 # Fetch relevant documents from Pinecone
                 relevant_docs = [
-                    match.metadata["text"] for match in results.matches # type: ignore
+                    match.metadata["text"] for match in matches # type: ignore
                 ]
                 return {"message": "Relevant documents found", "documents": relevant_docs}
         else:

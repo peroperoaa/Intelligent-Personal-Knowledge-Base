@@ -37,7 +37,14 @@ def generate_notes_task(user_query:str) -> dict:
             topics = user_query
         
         # Step 2: Retrieve context
-        context = get_context(user_query, namespace=namespace)
+        # Use the generated topics for retrieval, not just the raw user query, to improve semantic matching
+        search_query = f"{user_query} {topics}"
+        context = get_context(search_query, namespace=namespace)
+        
+        # Debugging: Print context to logs to verify retrieval
+        print(f"DEBUG: User Query: {user_query}")
+        print(f"DEBUG: Namespace: {namespace}")
+        print(f"DEBUG: Retrieved Context: {context}")
 
         # Step 3: Generate final response (using ONLY the user's original query)
         prompt_2:str= f"""
