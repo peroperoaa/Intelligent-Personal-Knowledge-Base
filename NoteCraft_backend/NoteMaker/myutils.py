@@ -4,25 +4,37 @@ import requests
 import json
 from dotenv import load_dotenv
 from pinecone import Pinecone
-from google_images_search import GoogleImagesSearch
+try:
+    from google_images_search import GoogleImagesSearch
+except ImportError:
+    GoogleImagesSearch = None
+    print("Warning: google_images_search not found or curses missing. Image search will be disabled.")
+
 from requests.exceptions import RequestException
 from django.core.cache import cache
 import random
 load_dotenv()
 global gis
-gis = GoogleImagesSearch(developer_key=os.getenv("GOOGLE_API_KEY"), custom_search_cx=os.getenv("CX"))
+if GoogleImagesSearch:
+    gis = GoogleImagesSearch(developer_key=os.getenv("GOOGLE_API_KEY"), custom_search_cx=os.getenv("CX"))
+else:
+    gis = None
 
 OR_API_KEY=os.getenv("OPEN_ROUTER_API_KEY")
-pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
-index = pc.Index("notecraft")
+try:
+    pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
+    index = pc.Index("notecraft")
+except Exception as e:
+    print(f"Warning: Pinecone initialization failed: {e}")
+    index = None
 
-topics_query:str="Generate 10 subtopics that should be covered in this topic from an academic perspective. " \
-"If subtopics are already present in the content, retain them without modification. " \
+topics_query:str="Generate key gameplay aspects for Teamfight Tactics (Golden Spatula) related to this topic. " \
+"If specific strategies or compositions are mentioned, retain them. " \
     "The output should only contain the subtopics and not the content." \
     """the output should in form of raw json in the ```json box nothing else in format- namespace:(one of namespace from given list)""" \
-    "topics:(list of stings no numbers or bullets eg- ['subtopic1','subtopic2']) "\
-    "eg-{'namespace': 'cs_math', 'topics': ['machine_learning_algorithms', ....]}"\
-    "namespace list-physics,chemistry,energy_sustainability,mathematics_applied_math,earth_sciences,psychology_cognitive_science,biology,medicine,agriculture_food_science,engineering,technology_innovation,cs_math,social_sciences,arts_humanities,business_management,history,law_policy,philosophy_ethics"
+    "topics:(list of strings no numbers or bullets eg- ['early_game_strategy','item_builds']) "\
+    "eg-{'namespace': 'compositions', 'topics': ['level_8_board', 'carry_items', ....]}"\
+    "namespace list-compositions,items,champions,traits,augments,economy_leveling,positioning,patch_notes,game_mechanics"
 
 def request_OpenRouter(query:str)->str:
     response = requests.post(
@@ -77,16 +89,19 @@ def get_context(topic:str,namespace:str)->Dict:
 
 
 def google_search_image(query: str) -> str:
-
+    if not gis:
+        return "https://via.placeholder.com/150"
     try:
         gis.search(search_params={'q': query, 'num': 1})
         image_url = gis.results()[0].url if gis.results() else "https://via.placeholder.com/150"
 
         return image_url
-    except (IndexError, RequestException):
+    except (IndexError, RequestException, Exception):
         return "https://via.placeholder.com/150"
 
 def new_image(query:str)->str:
+    if not gis:
+        return "https://via.placeholder.com/150"
     gis.search(search_params={'q': query, 'num': 5})
     image_url = gis.results()[random.randint(0,5)].url if gis.results() else "https://via.placeholder.com/150"
     return image_url
