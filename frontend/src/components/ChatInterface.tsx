@@ -1,17 +1,25 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import axios from "axios";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Send, Plus, User } from "lucide-react";
+import { Send, Plus, User, MessageSquare } from "lucide-react";
 import { motion } from "framer-motion";
+import { toast } from "sonner";
 
 interface Message {
   id: string;
   role: "user" | "assistant";
   content: string;
+}
+
+interface Conversation {
+  id: number;
+  title: string;
+  created_at: string;
 }
 
 export default function ChatInterface() {
@@ -24,7 +32,53 @@ export default function ChatInterface() {
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [conversations, setConversations] = useState<Conversation[]>([]);
+  const [conversationId, setConversationId] = useState<number | null>(null);
   const scrollAreaRef = useRef<HTMLDivElement>(null);
+
+  const getAuthHeaders = () => {
+    const token = localStorage.getItem("accessToken");
+    return token ? { Authorization: `Bearer ${token}` } : {};
+  };
+
+  const fetchConversations = async () => {
+    try {
+      const response = await axios.get("http://localhost:8000/conversations/", {
+        headers: getAuthHeaders(),
+      });
+      setConversations(response.data);
+    } catch (error) {
+      console.error("Failed to fetch conversations:", error);
+    }
+  };
+
+  const loadConversation = async (id: number) => {
+    try {
+      const response = await axios.get(`http://localhost:8000/conversations/${id}/messages/`, {
+        headers: getAuthHeaders(),
+      });
+      setMessages(response.data);
+      setConversationId(id);
+    } catch (error) {
+      console.error("Failed to load conversation:", error);
+      toast.error("无法加载对话历史");
+    }
+  };
+
+  const handleNewChat = () => {
+    setConversationId(null);
+    setMessages([
+      {
+        id: "1",
+        role: "assistant",
+        content: "你好！我是金铲铲智能助手。有什么我可以帮你的吗？比如询问当前赛季的强势阵容。",
+      },
+    ]);
+  };
+
+  useEffect(() => {
+    fetchConversations();
+  }, []);
 
   const handleSend = async () => {
     if (!input.trim()) return;
@@ -39,16 +93,41 @@ export default function ChatInterface() {
     setInput("");
     setIsLoading(true);
 
-    // Simulate AI response (replace with actual API call later)
-    setTimeout(() => {
+    try {
+      const response = await axios.post(
+        "http://localhost:8000/ask_ai/",
+        {
+          query: userMessage.content,
+          conversation_id: conversationId,
+        },
+        {
+          headers: getAuthHeaders(),
+        }
+      );
+
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: "assistant",
-        content: "这是一个模拟的回复。在实际应用中，这里将连接到后端 API 获取关于金铲铲之战的智能回答。",
+        content: response.data.answer || "抱歉，我没有找到相关信息。",
       };
       setMessages((prev) => [...prev, aiMessage]);
+      
+      if (!conversationId && response.data.conversation_id) {
+        setConversationId(response.data.conversation_id);
+        fetchConversations(); // Refresh list to show new chat
+      }
+    } catch (error) {
+      console.error("AI Error:", error);
+      toast.error("AI 服务暂时不可用");
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: "assistant",
+        content: "抱歉，我现在无法连接到大脑，请稍后再试。",
+      };
+      setMessages((prev) => [...prev, errorMessage]);
+    } finally {
       setIsLoading(false);
-    }, 1000);
+    }
   };
 
   useEffect(() => {
@@ -65,15 +144,31 @@ export default function ChatInterface() {
       {/* Sidebar (Optional, can be hidden on small screens) */}
       <div className="hidden md:flex w-[260px] flex-col bg-gray-50 border-r border-gray-200">
         <div className="p-4">
-          <Button variant="outline" className="w-full justify-start gap-2 text-gray-600 border-gray-300 hover:bg-gray-100">
+          <Button 
+            variant="outline" 
+            className="w-full justify-start gap-2 text-gray-600 border-gray-300 hover:bg-gray-100"
+            onClick={handleNewChat}
+          >
             <Plus size={16} />
             新对话
           </Button>
         </div>
         <ScrollArea className="flex-1 px-2">
-          {/* History items would go here */}
-          <div className="px-2 py-2 text-sm text-gray-500 hover:bg-gray-100 rounded-md cursor-pointer truncate">
-            金铲铲强势阵容推荐
+          <div className="space-y-1">
+            {conversations.map((conv) => (
+              <div
+                key={conv.id}
+                onClick={() => loadConversation(conv.id)}
+                className={`px-3 py-2 text-sm rounded-md cursor-pointer truncate flex items-center gap-2 ${
+                  conversationId === conv.id 
+                    ? "bg-gray-200 text-gray-900 font-medium" 
+                    : "text-gray-500 hover:bg-gray-100"
+                }`}
+              >
+                <MessageSquare size={14} />
+                <span className="truncate">{conv.title}</span>
+              </div>
+            ))}
           </div>
         </ScrollArea>
         <div className="p-4 border-t border-gray-200">
