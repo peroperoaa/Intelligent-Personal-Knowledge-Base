@@ -8,26 +8,85 @@ import requests
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
-from rest_framework import status
+from rest_framework import status, generics, permissions
 import json
 from .tasks import generate_notes_task
 from celery.result import AsyncResult
 from NoteCraft_backend.celery import app
 from .ai_module import query_ai
+from .models import Conversation, Message
+from .serializers import ConversationSerializer, MessageSerializer
 
 class HelloWorldView(APIView):
     def get(self, request:Request)->Response:
         return Response({"message": "Hello, world!"})
 
+class ConversationListCreateView(generics.ListCreateAPIView):
+    serializer_class = ConversationSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        return Conversation.objects.filter(user=self.request.user).order_by('-created_at')
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
+class ConversationDetailView(generics.RetrieveDestroyAPIView):
+    serializer_class = ConversationSerializer
+    permission_classes = [permissions.IsAuthenticated]
+    lookup_field = 'id'
+
+    def get_queryset(self):
+        return Conversation.objects.filter(user=self.request.user)
+
+class MessageListView(generics.ListAPIView):
+    serializer_class = MessageSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        conversation_id = self.kwargs['conversation_id']
+        return Message.objects.filter(conversation_id=conversation_id, conversation__user=self.request.user).order_by('created_at')
+
 class AskAIView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
+
     def post(self, request: Request) -> Response:
         query = request.data.get("query", "")
+        conversation_id = request.data.get("conversation_id")
+
         if not query:
             return Response({"error": "Query is required"}, status=400)
         
+        user = request.user
+        
+        # Handle Conversation
+        if conversation_id:
+            try:
+                conversation = Conversation.objects.get(id=conversation_id, user=user)
+            except Conversation.DoesNotExist:
+                return Response({"error": "Conversation not found"}, status=404)
+        else:
+            # Create new conversation with the first query as title (truncated)
+            title = query[:30] + "..." if len(query) > 30 else query
+            conversation = Conversation.objects.create(user=user, title=title)
+
+        # Save User Message
+        Message.objects.create(conversation=conversation, role='user', content=query)
+        
         try:
             result = query_ai(query)
-            return Response(result)
+            
+            ai_content = result.get('answer', '') if isinstance(result, dict) else str(result)
+            
+            # Save AI Message
+            Message.objects.create(conversation=conversation, role='assistant', content=ai_content)
+            
+            response_data = {
+                "answer": ai_content,
+                "conversation_id": conversation.id,
+                "sources": result.get('sources', [])
+            }
+            return Response(response_data)
         except Exception as e:
             return Response({"error": str(e)}, status=500)
 
