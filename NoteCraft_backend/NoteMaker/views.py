@@ -159,6 +159,8 @@ class ProxyImageView(APIView):
         except requests.RequestException as e:
             return Response({"error": f"Failed to fetch image: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+# 修改
+
 class CancelTaskView(APIView):
     def post(self, request: Request):
         task_id = request.data.get("task_id")  # type: ignore
