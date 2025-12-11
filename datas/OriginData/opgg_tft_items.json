@@ -1,0 +1,3500 @@
+{
+  "vectors": [
+    {
+      "id": "tft_item_0_鬼索的狂暴之刃+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 鬼索的狂暴之刃+。 合成公式: 反曲之弓 + 无用大棒。 统计数据: 平均排名 #4.11，前四率 57.37%，登顶率 15.79%，选取次数 379,420。 推荐英雄: 千珏, 芸阿娜, 卢锡安与赛娜, 阿兹尔, 黛安娜。",
+        "item_name": "鬼索的狂暴之刃+",
+        "recipe": "反曲之弓 + 无用大棒",
+        "avg_rank": "#4.11",
+        "top4_rate": "57.37%",
+        "win_rate": "15.79%",
+        "pick_count": "379,420",
+        "recommended_champions": [
+          "千珏",
+          "芸阿娜",
+          "卢锡安与赛娜",
+          "阿兹尔",
+          "黛安娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_1_窃贼手套+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 窃贼手套+。 合成公式: 拳套 + 拳套。 统计数据: 平均排名 #3.92，前四率 60.7%，登顶率 17.55%，选取次数 252,540。 推荐英雄: 希瓦娜, 费德提克, 斯维因, 塔里克, 奥恩。",
+        "item_name": "窃贼手套+",
+        "recipe": "拳套 + 拳套",
+        "avg_rank": "#3.92",
+        "top4_rate": "60.7%",
+        "win_rate": "17.55%",
+        "pick_count": "252,540",
+        "recommended_champions": [
+          "希瓦娜",
+          "费德提克",
+          "斯维因",
+          "塔里克",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_2_朔极之矛+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 朔极之矛+。 合成公式: 暴风之剑 + 女神之泪。 统计数据: 平均排名 #4.13，前四率 57%，登顶率 16.54%，选取次数 249,484。 推荐英雄: 安妮, 卢锡安与赛娜, 丽桑卓, 萨勒芬妮, 厄运小姐。",
+        "item_name": "朔极之矛+",
+        "recipe": "暴风之剑 + 女神之泪",
+        "avg_rank": "#4.13",
+        "top4_rate": "57%",
+        "win_rate": "16.54%",
+        "pick_count": "249,484",
+        "recommended_champions": [
+          "安妮",
+          "卢锡安与赛娜",
+          "丽桑卓",
+          "萨勒芬妮",
+          "厄运小姐"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_3_石像鬼石板甲+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 石像鬼石板甲+。 合成公式: 锁子甲 + 负极斗篷。 统计数据: 平均排名 #4.3，前四率 53.66%，登顶率 15.00%，选取次数 236,775。 推荐英雄: 提伯斯, 斯维因, 孙悟空, 布隆, 诺提勒斯。",
+        "item_name": "石像鬼石板甲+",
+        "recipe": "锁子甲 + 负极斗篷",
+        "avg_rank": "#4.3",
+        "top4_rate": "53.66%",
+        "win_rate": "15.00%",
+        "pick_count": "236,775",
+        "recommended_champions": [
+          "提伯斯",
+          "斯维因",
+          "孙悟空",
+          "布隆",
+          "诺提勒斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_4_狂徒铠甲+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 狂徒铠甲+。 合成公式: 巨人腰带 + 巨人腰带。 统计数据: 平均排名 #4.15，前四率 56.75%，登顶率 15.70%，选取次数 227,600。 推荐英雄: 提伯斯, 斯维因, 布隆, 孙悟空, 塔里克。",
+        "item_name": "狂徒铠甲+",
+        "recipe": "巨人腰带 + 巨人腰带",
+        "avg_rank": "#4.15",
+        "top4_rate": "56.75%",
+        "win_rate": "15.70%",
+        "pick_count": "227,600",
+        "recommended_champions": [
+          "提伯斯",
+          "斯维因",
+          "布隆",
+          "孙悟空",
+          "塔里克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_5_饮血剑+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 饮血剑+。 合成公式: 暴风之剑 + 负极斗篷。 统计数据: 平均排名 #4.02，前四率 59.08%，登顶率 16.90%，选取次数 226,450。 推荐英雄: 黛安娜, 希瓦娜, 塔姆, 瑟提, 塞拉斯。",
+        "item_name": "饮血剑+",
+        "recipe": "暴风之剑 + 负极斗篷",
+        "avg_rank": "#4.02",
+        "top4_rate": "59.08%",
+        "win_rate": "16.90%",
+        "pick_count": "226,450",
+        "recommended_champions": [
+          "黛安娜",
+          "希瓦娜",
+          "塔姆",
+          "瑟提",
+          "塞拉斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_6_珠光护手+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 珠光护手+。 合成公式: 无用大棒 + 拳套。 统计数据: 平均排名 #4.21，前四率 55.42%，登顶率 15.40%，选取次数 223,706。 推荐英雄: 塞拉斯, 瑟提, 阿兹尔, 卡莎, 丽桑卓。",
+        "item_name": "珠光护手+",
+        "recipe": "无用大棒 + 拳套",
+        "avg_rank": "#4.21",
+        "top4_rate": "55.42%",
+        "win_rate": "15.40%",
+        "pick_count": "223,706",
+        "recommended_champions": [
+          "塞拉斯",
+          "瑟提",
+          "阿兹尔",
+          "卡莎",
+          "丽桑卓"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_7_无尽之刃+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 无尽之刃+。 合成公式: 暴风之剑 + 拳套。 统计数据: 平均排名 #4.07，前四率 57.56%，登顶率 17.26%，选取次数 217,548。 推荐英雄: 卢锡安与赛娜, 芸阿娜, 厄运小姐, 千珏, 薇恩。",
+        "item_name": "无尽之刃+",
+        "recipe": "暴风之剑 + 拳套",
+        "avg_rank": "#4.07",
+        "top4_rate": "57.56%",
+        "win_rate": "17.26%",
+        "pick_count": "217,548",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "芸阿娜",
+          "厄运小姐",
+          "千珏",
+          "薇恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_8_日炎斗篷+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 日炎斗篷+。 合成公式: 锁子甲 + 巨人腰带。 统计数据: 平均排名 #4.11，前四率 57.19%，登顶率 15.92%，选取次数 191,777。 推荐英雄: 斯维因, 孙悟空, 诺提勒斯, 布隆, 峡谷先锋。",
+        "item_name": "日炎斗篷+",
+        "recipe": "锁子甲 + 巨人腰带",
+        "avg_rank": "#4.11",
+        "top4_rate": "57.19%",
+        "win_rate": "15.92%",
+        "pick_count": "191,777",
+        "recommended_champions": [
+          "斯维因",
+          "孙悟空",
+          "诺提勒斯",
+          "布隆",
+          "峡谷先锋"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_9_振奋盔甲+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 振奋盔甲+。 合成公式: 女神之泪 + 巨人腰带。 统计数据: 平均排名 #4.02，前四率 59.16%，登顶率 16.57%，选取次数 177,689。 推荐英雄: 斯维因, 孙悟空, 布隆, 提伯斯, 峡谷先锋。",
+        "item_name": "振奋盔甲+",
+        "recipe": "女神之泪 + 巨人腰带",
+        "avg_rank": "#4.02",
+        "top4_rate": "59.16%",
+        "win_rate": "16.57%",
+        "pick_count": "177,689",
+        "recommended_champions": [
+          "斯维因",
+          "孙悟空",
+          "布隆",
+          "提伯斯",
+          "峡谷先锋"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_10_正义之手+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 正义之手+。 合成公式: 女神之泪 + 拳套。 统计数据: 平均排名 #3.98，前四率 59.97%，登顶率 16.93%，选取次数 167,890。 推荐英雄: 瑟提, 普朗克, 塞拉斯, 希瓦娜, 费德提克。",
+        "item_name": "正义之手+",
+        "recipe": "女神之泪 + 拳套",
+        "avg_rank": "#3.98",
+        "top4_rate": "59.97%",
+        "win_rate": "16.93%",
+        "pick_count": "167,890",
+        "recommended_champions": [
+          "瑟提",
+          "普朗克",
+          "塞拉斯",
+          "希瓦娜",
+          "费德提克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_11_适应性头盔+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 适应性头盔+。 合成公式: 负极斗篷 + 女神之泪。 统计数据: 平均排名 #4，前四率 59.81%，登顶率 17.22%，选取次数 163,685。 推荐英雄: 安妮, 梅尔, 丽桑卓, 萨勒芬妮, 斯维因。",
+        "item_name": "适应性头盔+",
+        "recipe": "负极斗篷 + 女神之泪",
+        "avg_rank": "#4",
+        "top4_rate": "59.81%",
+        "win_rate": "17.22%",
+        "pick_count": "163,685",
+        "recommended_champions": [
+          "安妮",
+          "梅尔",
+          "丽桑卓",
+          "萨勒芬妮",
+          "斯维因"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_12_巨人杀手+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 巨人杀手+。 合成公式: 暴风之剑 + 反曲之弓。 统计数据: 平均排名 #3.93，前四率 60.89%，登顶率 17.07%，选取次数 159,288。 推荐英雄: 卢锡安与赛娜, 千珏, 阿兹尔, 卡莎, 芸阿娜。",
+        "item_name": "巨人杀手+",
+        "recipe": "暴风之剑 + 反曲之弓",
+        "avg_rank": "#3.93",
+        "top4_rate": "60.89%",
+        "win_rate": "17.07%",
+        "pick_count": "159,288",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "阿兹尔",
+          "卡莎",
+          "芸阿娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_13_海妖之怒+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 海妖之怒+。 合成公式: 负极斗篷 + 反曲之弓。 统计数据: 平均排名 #3.95，前四率 60.78%，登顶率 16.11%，选取次数 136,116。 推荐英雄: 千珏, 芸阿娜, 卢锡安与赛娜, 卑尔维斯, 薇恩。",
+        "item_name": "海妖之怒+",
+        "recipe": "负极斗篷 + 反曲之弓",
+        "avg_rank": "#3.95",
+        "top4_rate": "60.78%",
+        "win_rate": "16.11%",
+        "pick_count": "136,116",
+        "recommended_champions": [
+          "千珏",
+          "芸阿娜",
+          "卢锡安与赛娜",
+          "卑尔维斯",
+          "薇恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_14_泰坦的坚决+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 泰坦的坚决+。 合成公式: 锁子甲 + 反曲之弓。 统计数据: 平均排名 #3.98，前四率 60.17%，登顶率 16.62%，选取次数 133,381。 推荐英雄: 黛安娜, 希瓦娜, 瑟提, 沃利贝尔, 塞拉斯。",
+        "item_name": "泰坦的坚决+",
+        "recipe": "锁子甲 + 反曲之弓",
+        "avg_rank": "#3.98",
+        "top4_rate": "60.17%",
+        "win_rate": "16.62%",
+        "pick_count": "133,381",
+        "recommended_champions": [
+          "黛安娜",
+          "希瓦娜",
+          "瑟提",
+          "沃利贝尔",
+          "塞拉斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_15_虚空之杖+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 虚空之杖+。 合成公式: 反曲之弓 + 女神之泪。 统计数据: 平均排名 #4.05，前四率 58.58%，登顶率 17.29%，选取次数 126,427。 推荐英雄: 安妮, 萨勒芬妮, 阿兹尔, 基兰, 丽桑卓。",
+        "item_name": "虚空之杖+",
+        "recipe": "反曲之弓 + 女神之泪",
+        "avg_rank": "#4.05",
+        "top4_rate": "58.58%",
+        "win_rate": "17.29%",
+        "pick_count": "126,427",
+        "recommended_champions": [
+          "安妮",
+          "萨勒芬妮",
+          "阿兹尔",
+          "基兰",
+          "丽桑卓"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_16_圣盾使的誓约+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 圣盾使的誓约+。 合成公式: 女神之泪 + 锁子甲。 统计数据: 平均排名 #3.84，前四率 62.25%，登顶率 18.77%，选取次数 122,740。 推荐英雄: 斯维因, 塔姆, 孙悟空, 布隆, 诺提勒斯。",
+        "item_name": "圣盾使的誓约+",
+        "recipe": "女神之泪 + 锁子甲",
+        "avg_rank": "#3.84",
+        "top4_rate": "62.25%",
+        "win_rate": "18.77%",
+        "pick_count": "122,740",
+        "recommended_champions": [
+          "斯维因",
+          "塔姆",
+          "孙悟空",
+          "布隆",
+          "诺提勒斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_17_斯特拉克的挑战护手+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 斯特拉克的挑战护手+。 合成公式: 暴风之剑 + 巨人腰带。 统计数据: 平均排名 #3.83，前四率 62.63%，登顶率 18.99%，选取次数 112,688。 推荐英雄: 希瓦娜, 普朗克, 沃利贝尔, 纳什男爵, 安蓓萨。",
+        "item_name": "斯特拉克的挑战护手+",
+        "recipe": "暴风之剑 + 巨人腰带",
+        "avg_rank": "#3.83",
+        "top4_rate": "62.63%",
+        "win_rate": "18.99%",
+        "pick_count": "112,688",
+        "recommended_champions": [
+          "希瓦娜",
+          "普朗克",
+          "沃利贝尔",
+          "纳什男爵",
+          "安蓓萨"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_18_棘刺背心+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 棘刺背心+。 合成公式: 锁子甲 + 锁子甲。 统计数据: 平均排名 #3.86，前四率 62.17%，登顶率 18.16%，选取次数 101,862。 推荐英雄: 提伯斯, 斯维因, 布隆, 孙悟空, 诺提勒斯。",
+        "item_name": "棘刺背心+",
+        "recipe": "锁子甲 + 锁子甲",
+        "avg_rank": "#3.86",
+        "top4_rate": "62.17%",
+        "win_rate": "18.16%",
+        "pick_count": "101,862",
+        "recommended_champions": [
+          "提伯斯",
+          "斯维因",
+          "布隆",
+          "孙悟空",
+          "诺提勒斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_19_坚定之心+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 坚定之心+。 合成公式: 锁子甲 + 拳套。 统计数据: 平均排名 #3.98，前四率 60.06%，登顶率 17.04%，选取次数 99,492。 推荐英雄: 提伯斯, 斯维因, 布隆, 孙悟空, 塔里克。",
+        "item_name": "坚定之心+",
+        "recipe": "锁子甲 + 拳套",
+        "avg_rank": "#3.98",
+        "top4_rate": "60.06%",
+        "win_rate": "17.04%",
+        "pick_count": "99,492",
+        "recommended_champions": [
+          "提伯斯",
+          "斯维因",
+          "布隆",
+          "孙悟空",
+          "塔里克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_20_薄暮法袍+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 薄暮法袍+。 合成公式: 负极斗篷 + 巨人腰带。 统计数据: 平均排名 #3.82，前四率 62.62%，登顶率 18.92%，选取次数 99,002。 推荐英雄: 孙悟空, 诺提勒斯, 布隆, 斯维因, 塔里克。",
+        "item_name": "薄暮法袍+",
+        "recipe": "负极斗篷 + 巨人腰带",
+        "avg_rank": "#3.82",
+        "top4_rate": "62.62%",
+        "win_rate": "18.92%",
+        "pick_count": "99,002",
+        "recommended_champions": [
+          "孙悟空",
+          "诺提勒斯",
+          "布隆",
+          "斯维因",
+          "塔里克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_21_蓝霸符+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 蓝霸符+。 合成公式: 女神之泪 + 女神之泪。 统计数据: 平均排名 #4.04，前四率 58.71%，登顶率 16.96%，选取次数 96,788。 推荐英雄: 安妮, 卢锡安与赛娜, 丽桑卓, 拉克丝, 萨勒芬妮。",
+        "item_name": "蓝霸符+",
+        "recipe": "女神之泪 + 女神之泪",
+        "avg_rank": "#4.04",
+        "top4_rate": "58.71%",
+        "win_rate": "16.96%",
+        "pick_count": "96,788",
+        "recommended_champions": [
+          "安妮",
+          "卢锡安与赛娜",
+          "丽桑卓",
+          "拉克丝",
+          "萨勒芬妮"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_22_最后的轻语+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 最后的轻语+。 合成公式: 反曲之弓 + 拳套。 统计数据: 平均排名 #3.91，前四率 61.07%，登顶率 18.27%，选取次数 85,203。 推荐英雄: 卢锡安与赛娜, 千珏, 厄运小姐, 卡莉丝塔, 芸阿娜。",
+        "item_name": "最后的轻语+",
+        "recipe": "反曲之弓 + 拳套",
+        "avg_rank": "#3.91",
+        "top4_rate": "61.07%",
+        "win_rate": "18.27%",
+        "pick_count": "85,203",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "厄运小姐",
+          "卡莉丝塔",
+          "芸阿娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_23_莫雷洛秘典+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 莫雷洛秘典+。 合成公式: 无用大棒 + 巨人腰带。 统计数据: 平均排名 #4.07，前四率 58.28%，登顶率 15.86%，选取次数 84,136。 推荐英雄: 萨勒芬妮, 费德提克, 卢锡安与赛娜, 丽桑卓, 锤石。",
+        "item_name": "莫雷洛秘典+",
+        "recipe": "无用大棒 + 巨人腰带",
+        "avg_rank": "#4.07",
+        "top4_rate": "58.28%",
+        "win_rate": "15.86%",
+        "pick_count": "84,136",
+        "recommended_champions": [
+          "萨勒芬妮",
+          "费德提克",
+          "卢锡安与赛娜",
+          "丽桑卓",
+          "锤石"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_24_灭世者的死亡之帽+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 灭世者的死亡之帽+。 合成公式: 无用大棒 + 无用大棒。 统计数据: 平均排名 #4.03，前四率 58.73%，登顶率 17.54%，选取次数 83,158。 推荐英雄: 维迦, 费德提克, 菲兹, 瑟提, 阿兹尔。",
+        "item_name": "灭世者的死亡之帽+",
+        "recipe": "无用大棒 + 无用大棒",
+        "avg_rank": "#4.03",
+        "top4_rate": "58.73%",
+        "win_rate": "17.54%",
+        "pick_count": "83,158",
+        "recommended_champions": [
+          "维迦",
+          "费德提克",
+          "菲兹",
+          "瑟提",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_25_巨龙之爪+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 巨龙之爪+。 合成公式: 负极斗篷 + 负极斗篷。 统计数据: 平均排名 #3.97，前四率 60.28%，登顶率 17.17%，选取次数 82,817。 推荐英雄: 提伯斯, 斯维因, 布隆, 塔里克, 孙悟空。",
+        "item_name": "巨龙之爪+",
+        "recipe": "负极斗篷 + 负极斗篷",
+        "avg_rank": "#3.97",
+        "top4_rate": "60.28%",
+        "win_rate": "17.17%",
+        "pick_count": "82,817",
+        "recommended_champions": [
+          "提伯斯",
+          "斯维因",
+          "布隆",
+          "塔里克",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_26_海克斯科技枪刃+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 海克斯科技枪刃+。 合成公式: 暴风之剑 + 无用大棒。 统计数据: 平均排名 #3.81，前四率 62.73%，登顶率 19.48%，选取次数 81,091。 推荐英雄: 卡莎, 塞拉斯, 阿兹尔, 卢锡安与赛娜, 费德提克。",
+        "item_name": "海克斯科技枪刃+",
+        "recipe": "暴风之剑 + 无用大棒",
+        "avg_rank": "#3.81",
+        "top4_rate": "62.73%",
+        "win_rate": "19.48%",
+        "pick_count": "81,091",
+        "recommended_champions": [
+          "卡莎",
+          "塞拉斯",
+          "阿兹尔",
+          "卢锡安与赛娜",
+          "费德提克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_27_强袭者的链枷+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 强袭者的链枷+。 合成公式: 巨人腰带 + 拳套。 统计数据: 平均排名 #3.81，前四率 63.34%，登顶率 18.55%，选取次数 72,847。 推荐英雄: 卢锡安与赛娜, 阿兹尔, 卡莉丝塔, 瑟提, 费德提克。",
+        "item_name": "强袭者的链枷+",
+        "recipe": "巨人腰带 + 拳套",
+        "avg_rank": "#3.81",
+        "top4_rate": "63.34%",
+        "win_rate": "18.55%",
+        "pick_count": "72,847",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "阿兹尔",
+          "卡莉丝塔",
+          "瑟提",
+          "费德提克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_28_纳什之牙+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 纳什之牙+。 合成公式: 反曲之弓 + 巨人腰带。 统计数据: 平均排名 #4.06，前四率 58.6%，登顶率 16.20%，选取次数 71,356。 推荐英雄: 安妮, 阿兹尔, 丽桑卓, 拉克丝, 巴德。",
+        "item_name": "纳什之牙+",
+        "recipe": "反曲之弓 + 巨人腰带",
+        "avg_rank": "#4.06",
+        "top4_rate": "58.6%",
+        "win_rate": "16.20%",
+        "pick_count": "71,356",
+        "recommended_champions": [
+          "安妮",
+          "阿兹尔",
+          "丽桑卓",
+          "拉克丝",
+          "巴德"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_29_水银+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 水银+。 合成公式: 拳套 + 负极斗篷。 统计数据: 平均排名 #3.8，前四率 63.59%，登顶率 17.71%，选取次数 71,189。 推荐英雄: 卑尔维斯, 普朗克, 希瓦娜, 泰达米尔, 沃利贝尔。",
+        "item_name": "水银+",
+        "recipe": "拳套 + 负极斗篷",
+        "avg_rank": "#3.8",
+        "top4_rate": "63.59%",
+        "win_rate": "17.71%",
+        "pick_count": "71,189",
+        "recommended_champions": [
+          "卑尔维斯",
+          "普朗克",
+          "希瓦娜",
+          "泰达米尔",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_30_冕卫+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 冕卫+。 合成公式: 无用大棒 + 锁子甲。 统计数据: 平均排名 #3.86，前四率 62.02%，登顶率 18.33%，选取次数 70,448。 推荐英雄: 斯维因, 提伯斯, 塔里克, 诺提勒斯, 布隆。",
+        "item_name": "冕卫+",
+        "recipe": "无用大棒 + 锁子甲",
+        "avg_rank": "#3.86",
+        "top4_rate": "62.02%",
+        "win_rate": "18.33%",
+        "pick_count": "70,448",
+        "recommended_champions": [
+          "斯维因",
+          "提伯斯",
+          "塔里克",
+          "诺提勒斯",
+          "布隆"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_31_红霸符+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 红霸符+。 合成公式: 反曲之弓 + 反曲之弓。 统计数据: 平均排名 #3.94，前四率 60.27%，登顶率 18.19%，选取次数 64,098。 推荐英雄: 卢锡安与赛娜, 千珏, 萨勒芬妮, 费德提克, 阿兹尔。",
+        "item_name": "红霸符+",
+        "recipe": "反曲之弓 + 反曲之弓",
+        "avg_rank": "#3.94",
+        "top4_rate": "60.27%",
+        "win_rate": "18.19%",
+        "pick_count": "64,098",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "萨勒芬妮",
+          "费德提克",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_32_大天使之杖+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 大天使之杖+。 合成公式: 无用大棒 + 女神之泪。 统计数据: 平均排名 #4.02，前四率 59.38%，登顶率 15.75%，选取次数 63,356。 推荐英雄: 巴德, 卡莎, 丽桑卓, 阿兹尔, 费德提克。",
+        "item_name": "大天使之杖+",
+        "recipe": "无用大棒 + 女神之泪",
+        "avg_rank": "#4.02",
+        "top4_rate": "59.38%",
+        "win_rate": "15.75%",
+        "pick_count": "63,356",
+        "recommended_champions": [
+          "巴德",
+          "卡莎",
+          "丽桑卓",
+          "阿兹尔",
+          "费德提克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_33_离子火花+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 离子火花+。 合成公式: 无用大棒 + 负极斗篷。 统计数据: 平均排名 #3.93，前四率 60.66%，登顶率 17.09%，选取次数 61,303。 推荐英雄: 斯维因, 提伯斯, 塔里克, 费德提克, 孙悟空。",
+        "item_name": "离子火花+",
+        "recipe": "无用大棒 + 负极斗篷",
+        "avg_rank": "#3.93",
+        "top4_rate": "60.66%",
+        "win_rate": "17.09%",
+        "pick_count": "61,303",
+        "recommended_champions": [
+          "斯维因",
+          "提伯斯",
+          "塔里克",
+          "费德提克",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_34_夜之锋刃+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 夜之锋刃+。 合成公式: 暴风之剑 + 锁子甲。 统计数据: 平均排名 #3.74，前四率 64.44%，登顶率 18.70%，选取次数 54,560。 推荐英雄: 希瓦娜, 塞拉斯, 安蓓萨, 费德提克, 沃利贝尔。",
+        "item_name": "夜之锋刃+",
+        "recipe": "暴风之剑 + 锁子甲",
+        "avg_rank": "#3.74",
+        "top4_rate": "64.44%",
+        "win_rate": "18.70%",
+        "pick_count": "54,560",
+        "recommended_champions": [
+          "希瓦娜",
+          "塞拉斯",
+          "安蓓萨",
+          "费德提克",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_35_死亡之刃+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 死亡之刃+。 合成公式: 暴风之剑 + 暴风之剑。 统计数据: 平均排名 #3.75，前四率 64.38%，登顶率 18.52%，选取次数 50,966。 推荐英雄: 卢锡安与赛娜, 千珏, 芸阿娜, 希瓦娜, 厄运小姐。",
+        "item_name": "死亡之刃+",
+        "recipe": "暴风之剑 + 暴风之剑",
+        "avg_rank": "#3.75",
+        "top4_rate": "64.38%",
+        "win_rate": "18.52%",
+        "pick_count": "50,966",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "芸阿娜",
+          "希瓦娜",
+          "厄运小姐"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_36_幸运达布隆金币",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 幸运达布隆金币。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.87，前四率 59.81%，登顶率 23.57%，选取次数 33,503。 推荐英雄: 厄运小姐, 崔斯特, 普朗克, 诺提勒斯, 塔姆。",
+        "item_name": "幸运达布隆金币",
+        "recipe": "",
+        "avg_rank": "#3.87",
+        "top4_rate": "59.81%",
+        "win_rate": "23.57%",
+        "pick_count": "33,503",
+        "recommended_champions": [
+          "厄运小姐",
+          "崔斯特",
+          "普朗克",
+          "诺提勒斯",
+          "塔姆"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_37_巨人腰带",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 巨人腰带。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.51，前四率 50.46%，登顶率 13.47%，选取次数 31,928。 推荐英雄: 斯维因, 奥恩, 塔里克, 孙悟空, 提伯斯。",
+        "item_name": "巨人腰带",
+        "recipe": "",
+        "avg_rank": "#4.51",
+        "top4_rate": "50.46%",
+        "win_rate": "13.47%",
+        "pick_count": "31,928",
+        "recommended_champions": [
+          "斯维因",
+          "奥恩",
+          "塔里克",
+          "孙悟空",
+          "提伯斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_38_金铲铲冠冕+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 金铲铲冠冕+。 合成公式: 金铲铲 + 金铲铲。 统计数据: 平均排名 #3.93，前四率 60.08%，登顶率 19.71%，选取次数 27,941。 推荐英雄: 卢锡安与赛娜, 阿兹尔, 千珏, 萨勒芬妮, 基兰。",
+        "item_name": "金铲铲冠冕+",
+        "recipe": "金铲铲 + 金铲铲",
+        "avg_rank": "#3.93",
+        "top4_rate": "60.08%",
+        "win_rate": "19.71%",
+        "pick_count": "27,941",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "阿兹尔",
+          "千珏",
+          "萨勒芬妮",
+          "基兰"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_39_锁子甲",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 锁子甲。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.4，前四率 52.64%，登顶率 13.85%，选取次数 22,668。 推荐英雄: 斯维因, 奥恩, 塔里克, 孙悟空, 希瓦娜。",
+        "item_name": "锁子甲",
+        "recipe": "",
+        "avg_rank": "#4.4",
+        "top4_rate": "52.64%",
+        "win_rate": "13.85%",
+        "pick_count": "22,668",
+        "recommended_champions": [
+          "斯维因",
+          "奥恩",
+          "塔里克",
+          "孙悟空",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_40_无用大棒",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 无用大棒。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.5，前四率 51.08%，登顶率 12.97%，选取次数 21,482。 推荐英雄: 费德提克, 萨勒芬妮, 阿兹尔, 基兰, 奥恩。",
+        "item_name": "无用大棒",
+        "recipe": "",
+        "avg_rank": "#4.5",
+        "top4_rate": "51.08%",
+        "win_rate": "12.97%",
+        "pick_count": "21,482",
+        "recommended_champions": [
+          "费德提克",
+          "萨勒芬妮",
+          "阿兹尔",
+          "基兰",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_41_成堆柑橘",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 成堆柑橘。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.3，前四率 69.61%，登顶率 32.03%，选取次数 21,382。 推荐英雄: 塔姆, 诺提勒斯, 俄洛伊, 普朗克, 菲兹。",
+        "item_name": "成堆柑橘",
+        "recipe": "",
+        "avg_rank": "#3.3",
+        "top4_rate": "69.61%",
+        "win_rate": "32.03%",
+        "pick_count": "21,382",
+        "recommended_champions": [
+          "塔姆",
+          "诺提勒斯",
+          "俄洛伊",
+          "普朗克",
+          "菲兹"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_42_女神之泪",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 女神之泪。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.43，前四率 52.07%，登顶率 12.75%，选取次数 20,300。 推荐英雄: 萨勒芬妮, 卢锡安与赛娜, 费德提克, 斯维因, 基兰。",
+        "item_name": "女神之泪",
+        "recipe": "",
+        "avg_rank": "#4.43",
+        "top4_rate": "52.07%",
+        "win_rate": "12.75%",
+        "pick_count": "20,300",
+        "recommended_champions": [
+          "萨勒芬妮",
+          "卢锡安与赛娜",
+          "费德提克",
+          "斯维因",
+          "基兰"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_43_船长的酿造品",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 船长的酿造品。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.53，前四率 66.18%，登顶率 26.69%，选取次数 20,180。 推荐英雄: 厄运小姐, 崔斯特, 诺提勒斯, 塔姆, 普朗克。",
+        "item_name": "船长的酿造品",
+        "recipe": "",
+        "avg_rank": "#3.53",
+        "top4_rate": "66.18%",
+        "win_rate": "26.69%",
+        "pick_count": "20,180",
+        "recommended_champions": [
+          "厄运小姐",
+          "崔斯特",
+          "诺提勒斯",
+          "塔姆",
+          "普朗克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_44_酒吧指虎",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 酒吧指虎。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.31，前四率 69.75%，登顶率 31.11%，选取次数 19,243。 推荐英雄: 诺提勒斯, 塔姆, 俄洛伊, 奥恩, 孙悟空。",
+        "item_name": "酒吧指虎",
+        "recipe": "",
+        "avg_rank": "#3.31",
+        "top4_rate": "69.75%",
+        "win_rate": "31.11%",
+        "pick_count": "19,243",
+        "recommended_champions": [
+          "诺提勒斯",
+          "塔姆",
+          "俄洛伊",
+          "奥恩",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_45_亡者的短剑",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 亡者的短剑。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.58，前四率 65.09%，登顶率 26.49%，选取次数 19,235。 推荐英雄: 厄运小姐, 菲兹, 普朗克, 格雷福斯, 塔姆。",
+        "item_name": "亡者的短剑",
+        "recipe": "",
+        "avg_rank": "#3.58",
+        "top4_rate": "65.09%",
+        "win_rate": "26.49%",
+        "pick_count": "19,235",
+        "recommended_champions": [
+          "厄运小姐",
+          "菲兹",
+          "普朗克",
+          "格雷福斯",
+          "塔姆"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_46_反曲之弓",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 反曲之弓。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.63，前四率 48.09%，登顶率 12.00%，选取次数 18,998。 推荐英雄: 卢锡安与赛娜, 阿兹尔, 千珏, 萨勒芬妮, 基兰。",
+        "item_name": "反曲之弓",
+        "recipe": "",
+        "avg_rank": "#4.63",
+        "top4_rate": "48.09%",
+        "win_rate": "12.00%",
+        "pick_count": "18,998",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "阿兹尔",
+          "千珏",
+          "萨勒芬妮",
+          "基兰"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_47_大副的燧发枪",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 大副的燧发枪。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.48，前四率 66.95%，登顶率 28.21%，选取次数 18,700。 推荐英雄: 厄运小姐, 卢锡安与赛娜, 普朗克, 格雷福斯, 崔斯特。",
+        "item_name": "大副的燧发枪",
+        "recipe": "",
+        "avg_rank": "#3.48",
+        "top4_rate": "66.95%",
+        "win_rate": "28.21%",
+        "pick_count": "18,700",
+        "recommended_champions": [
+          "厄运小姐",
+          "卢锡安与赛娜",
+          "普朗克",
+          "格雷福斯",
+          "崔斯特"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_48_暗裔之弓",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 暗裔之弓。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.58，前四率 68.04%，登顶率 20.09%，选取次数 18,580。 推荐英雄: 芸阿娜, 千珏, 卑尔维斯, 卢锡安与赛娜, 德莱文。",
+        "item_name": "暗裔之弓",
+        "recipe": "",
+        "avg_rank": "#3.58",
+        "top4_rate": "68.04%",
+        "win_rate": "20.09%",
+        "pick_count": "18,580",
+        "recommended_champions": [
+          "芸阿娜",
+          "千珏",
+          "卑尔维斯",
+          "卢锡安与赛娜",
+          "德莱文"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_49_暴风之剑",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 暴风之剑。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.58，前四率 49.36%，登顶率 12.27%，选取次数 16,995。 推荐英雄: 卢锡安与赛娜, 千珏, 希瓦娜, 安蓓萨, 艾希。",
+        "item_name": "暴风之剑",
+        "recipe": "",
+        "avg_rank": "#4.58",
+        "top4_rate": "49.36%",
+        "win_rate": "12.27%",
+        "pick_count": "16,995",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "希瓦娜",
+          "安蓓萨",
+          "艾希"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_50_比尔吉沃特纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 比尔吉沃特纹章+。 合成公式: 金铲铲 + 女神之泪。 统计数据: 平均排名 #3.9，前四率 57.85%，登顶率 29.63%，选取次数 15,774。 推荐英雄: 卢锡安与赛娜, 奥恩, 希瓦娜, 费德提克, 千珏。",
+        "item_name": "比尔吉沃特纹章+",
+        "recipe": "金铲铲 + 女神之泪",
+        "avg_rank": "#3.9",
+        "top4_rate": "57.85%",
+        "win_rate": "29.63%",
+        "pick_count": "15,774",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "奥恩",
+          "希瓦娜",
+          "费德提克",
+          "千珏"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_51_负极斗篷",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 负极斗篷。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.47，前四率 51.24%，登顶率 13.44%，选取次数 15,583。 推荐英雄: 斯维因, 奥恩, 塔里克, 孙悟空, 希瓦娜。",
+        "item_name": "负极斗篷",
+        "recipe": "",
+        "avg_rank": "#4.47",
+        "top4_rate": "51.24%",
+        "win_rate": "13.44%",
+        "pick_count": "15,583",
+        "recommended_champions": [
+          "斯维因",
+          "奥恩",
+          "塔里克",
+          "孙悟空",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_52_拳套",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 拳套。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.57，前四率 49.45%，登顶率 12.03%，选取次数 13,771。 推荐英雄: 卢锡安与赛娜, 费德提克, 奥恩, 安蓓萨, 希瓦娜。",
+        "item_name": "拳套",
+        "recipe": "",
+        "avg_rank": "#4.57",
+        "top4_rate": "49.45%",
+        "win_rate": "12.03%",
+        "pick_count": "13,771",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "费德提克",
+          "奥恩",
+          "安蓓萨",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_53_弗雷尔卓德纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 弗雷尔卓德纹章+。 合成公式: 金铲铲 + 巨人腰带。 统计数据: 平均排名 #4.25，前四率 54.93%，登顶率 13.56%，选取次数 11,194。 推荐英雄: 奥恩, 塔里克, 孙悟空, 洛里斯, 斯维因。",
+        "item_name": "弗雷尔卓德纹章+",
+        "recipe": "金铲铲 + 巨人腰带",
+        "avg_rank": "#4.25",
+        "top4_rate": "54.93%",
+        "win_rate": "13.56%",
+        "pick_count": "11,194",
+        "recommended_champions": [
+          "奥恩",
+          "塔里克",
+          "孙悟空",
+          "洛里斯",
+          "斯维因"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_54_艾欧尼亚纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 艾欧尼亚纹章+。 合成公式: 金铲铲 + 无用大棒。 统计数据: 平均排名 #4.29，前四率 53.46%，登顶率 14.86%，选取次数 11,161。 推荐英雄: 千珏, 卢锡安与赛娜, 沃利贝尔, 奥恩, 塔里克。",
+        "item_name": "艾欧尼亚纹章+",
+        "recipe": "金铲铲 + 无用大棒",
+        "avg_rank": "#4.29",
+        "top4_rate": "53.46%",
+        "win_rate": "14.86%",
+        "pick_count": "11,161",
+        "recommended_champions": [
+          "千珏",
+          "卢锡安与赛娜",
+          "沃利贝尔",
+          "奥恩",
+          "塔里克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_55_残酷弯刀",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 残酷弯刀。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.52，前四率 66.11%，登顶率 27.97%，选取次数 10,484。 推荐英雄: 厄运小姐, 普朗克, 菲兹, 塔姆, 格雷福斯。",
+        "item_name": "残酷弯刀",
+        "recipe": "",
+        "avg_rank": "#3.52",
+        "top4_rate": "66.11%",
+        "win_rate": "27.97%",
+        "pick_count": "10,484",
+        "recommended_champions": [
+          "厄运小姐",
+          "普朗克",
+          "菲兹",
+          "塔姆",
+          "格雷福斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_56_德玛西亚纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 德玛西亚纹章+。 合成公式: 金铲铲 + 锁子甲。 统计数据: 平均排名 #4.43，前四率 51.73%，登顶率 11.48%，选取次数 10,395。 推荐英雄: 斯维因, 塞拉斯, 希瓦娜, 奥恩, 塔里克。",
+        "item_name": "德玛西亚纹章+",
+        "recipe": "金铲铲 + 锁子甲",
+        "avg_rank": "#4.43",
+        "top4_rate": "51.73%",
+        "win_rate": "11.48%",
+        "pick_count": "10,395",
+        "recommended_champions": [
+          "斯维因",
+          "塞拉斯",
+          "希瓦娜",
+          "奥恩",
+          "塔里克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_57_三相之力",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 三相之力。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.53，前四率 67.81%，登顶率 23.30%，选取次数 10,108。 推荐英雄: 希瓦娜, 奥恩, 卢锡安与赛娜, 黛安娜, 沃利贝尔。",
+        "item_name": "三相之力",
+        "recipe": "",
+        "avg_rank": "#3.53",
+        "top4_rate": "67.81%",
+        "win_rate": "23.30%",
+        "pick_count": "10,108",
+        "recommended_champions": [
+          "希瓦娜",
+          "奥恩",
+          "卢锡安与赛娜",
+          "黛安娜",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_58_迅击战士纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 迅击战士纹章+。 合成公式: 金锅锅 + 反曲之弓。 统计数据: 平均排名 #3.98，前四率 59.79%，登顶率 17.13%，选取次数 9,698。 推荐英雄: 卢锡安与赛娜, 丽桑卓, 安蓓萨, 沃利贝尔, 阿兹尔。",
+        "item_name": "迅击战士纹章+",
+        "recipe": "金锅锅 + 反曲之弓",
+        "avg_rank": "#3.98",
+        "top4_rate": "59.79%",
+        "win_rate": "17.13%",
+        "pick_count": "9,698",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "丽桑卓",
+          "安蓓萨",
+          "沃利贝尔",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_59_虚空纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 虚空纹章+。 合成公式: 金铲铲 + 反曲之弓。 统计数据: 平均排名 #4.23，前四率 52.91%，登顶率 18.82%，选取次数 9,511。 推荐英雄: 沃利贝尔, 斯维因, 希瓦娜, 费德提克, 孙悟空。",
+        "item_name": "虚空纹章+",
+        "recipe": "金铲铲 + 反曲之弓",
+        "avg_rank": "#4.23",
+        "top4_rate": "52.91%",
+        "win_rate": "18.82%",
+        "pick_count": "9,511",
+        "recommended_champions": [
+          "沃利贝尔",
+          "斯维因",
+          "希瓦娜",
+          "费德提克",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_60_征服者纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 征服者纹章+。 合成公式: 金锅锅 + 拳套。 统计数据: 平均排名 #3.99，前四率 59.84%，登顶率 17.06%，选取次数 9,382。 推荐英雄: 卢锡安与赛娜, 德莱文, 厄运小姐, 希瓦娜, 千珏。",
+        "item_name": "征服者纹章+",
+        "recipe": "金锅锅 + 拳套",
+        "avg_rank": "#3.99",
+        "top4_rate": "59.84%",
+        "win_rate": "17.06%",
+        "pick_count": "9,382",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "德莱文",
+          "厄运小姐",
+          "希瓦娜",
+          "千珏"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_61_烁刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 烁刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.63，前四率 66.64%，登顶率 21.55%，选取次数 9,198。 推荐英雄: 千珏, 芸阿娜, 卢锡安与赛娜, 阿兹尔, 卡莎。",
+        "item_name": "烁刃",
+        "recipe": "",
+        "avg_rank": "#3.63",
+        "top4_rate": "66.64%",
+        "win_rate": "21.55%",
+        "pick_count": "9,198",
+        "recommended_champions": [
+          "千珏",
+          "芸阿娜",
+          "卢锡安与赛娜",
+          "阿兹尔",
+          "卡莎"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_62_光明版窃贼手套",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版窃贼手套。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.85，前四率 62.1%，登顶率 20.65%，选取次数 9,045。 推荐英雄: 岩宝, 希瓦娜, 瑟提, 费德提克, 沃利贝尔。",
+        "item_name": "光明版窃贼手套",
+        "recipe": "",
+        "avg_rank": "#3.85",
+        "top4_rate": "62.1%",
+        "win_rate": "20.65%",
+        "pick_count": "9,045",
+        "recommended_champions": [
+          "岩宝",
+          "希瓦娜",
+          "瑟提",
+          "费德提克",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_63_法师纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 法师纹章+。 合成公式: 金锅锅 + 无用大棒。 统计数据: 平均排名 #4.41，前四率 51.77%，登顶率 13.70%，选取次数 8,878。 推荐英雄: 瑟提, 费德提克, 阿兹尔, 基兰, 萨勒芬妮。",
+        "item_name": "法师纹章+",
+        "recipe": "金锅锅 + 无用大棒",
+        "avg_rank": "#4.41",
+        "top4_rate": "51.77%",
+        "win_rate": "13.70%",
+        "pick_count": "8,878",
+        "recommended_champions": [
+          "瑟提",
+          "费德提克",
+          "阿兹尔",
+          "基兰",
+          "萨勒芬妮"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_64_斗士纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 斗士纹章+。 合成公式: 金锅锅 + 巨人腰带。 统计数据: 平均排名 #3.67，前四率 64.92%，登顶率 22.03%，选取次数 8,768。 推荐英雄: 斯维因, 诺提勒斯, 塔里克, 布隆, 奥恩。",
+        "item_name": "斗士纹章+",
+        "recipe": "金锅锅 + 巨人腰带",
+        "avg_rank": "#3.67",
+        "top4_rate": "64.92%",
+        "win_rate": "22.03%",
+        "pick_count": "8,768",
+        "recommended_champions": [
+          "斯维因",
+          "诺提勒斯",
+          "塔里克",
+          "布隆",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_65_诺克萨斯纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 诺克萨斯纹章+。 合成公式: 金铲铲 + 暴风之剑。 统计数据: 平均排名 #4.43，前四率 50.53%，登顶率 15.10%，选取次数 8,736。 推荐英雄: 希瓦娜, 费德提克, 千珏, 普朗克, 阿兹尔。",
+        "item_name": "诺克萨斯纹章+",
+        "recipe": "金铲铲 + 暴风之剑",
+        "avg_rank": "#4.43",
+        "top4_rate": "50.53%",
+        "win_rate": "15.10%",
+        "pick_count": "8,736",
+        "recommended_champions": [
+          "希瓦娜",
+          "费德提克",
+          "千珏",
+          "普朗克",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_66_暗裔之盾",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 暗裔之盾。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.51，前四率 68.55%，登顶率 24.11%，选取次数 7,942。 推荐英雄: 奥恩, 提伯斯, 塔姆, 赛恩, 斯维因。",
+        "item_name": "暗裔之盾",
+        "recipe": "",
+        "avg_rank": "#3.51",
+        "top4_rate": "68.55%",
+        "win_rate": "24.11%",
+        "pick_count": "7,942",
+        "recommended_champions": [
+          "奥恩",
+          "提伯斯",
+          "塔姆",
+          "赛恩",
+          "斯维因"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_67_主宰纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 主宰纹章+。 合成公式: 金锅锅 + 负极斗篷。 统计数据: 平均排名 #4.07，前四率 57.83%，登顶率 17.27%，选取次数 7,783。 推荐英雄: 塔里克, 奥恩, 峡谷先锋, 提伯斯, 塔姆。",
+        "item_name": "主宰纹章+",
+        "recipe": "金锅锅 + 负极斗篷",
+        "avg_rank": "#4.07",
+        "top4_rate": "57.83%",
+        "win_rate": "17.27%",
+        "pick_count": "7,783",
+        "recommended_champions": [
+          "塔里克",
+          "奥恩",
+          "峡谷先锋",
+          "提伯斯",
+          "塔姆"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_68_连指手套",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 连指手套。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.45，前四率 69.26%，登顶率 24.39%，选取次数 7,528。 推荐英雄: 希瓦娜, 千珏, 黛安娜, 卢锡安与赛娜, 沃利贝尔。",
+        "item_name": "连指手套",
+        "recipe": "",
+        "avg_rank": "#3.45",
+        "top4_rate": "69.26%",
+        "win_rate": "24.39%",
+        "pick_count": "7,528",
+        "recommended_champions": [
+          "希瓦娜",
+          "千珏",
+          "黛安娜",
+          "卢锡安与赛娜",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_69_顽强不屈",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 顽强不屈。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.54，前四率 67.83%，登顶率 23.13%，选取次数 7,472。 推荐英雄: 奥恩, 布隆, 斯维因, 孙悟空, 诺提勒斯。",
+        "item_name": "顽强不屈",
+        "recipe": "",
+        "avg_rank": "#3.54",
+        "top4_rate": "67.83%",
+        "win_rate": "23.13%",
+        "pick_count": "7,472",
+        "recommended_champions": [
+          "奥恩",
+          "布隆",
+          "斯维因",
+          "孙悟空",
+          "诺提勒斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_70_光盾徽章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光盾徽章。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.37，前四率 70.37%，登顶率 26.37%，选取次数 7,459。 推荐英雄: 奥恩, 诺提勒斯, 斯维因, 布隆, 孙悟空。",
+        "item_name": "光盾徽章",
+        "recipe": "",
+        "avg_rank": "#3.37",
+        "top4_rate": "70.37%",
+        "win_rate": "26.37%",
+        "pick_count": "7,459",
+        "recommended_champions": [
+          "奥恩",
+          "诺提勒斯",
+          "斯维因",
+          "布隆",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_71_死亡之蔑",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 死亡之蔑。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.36，前四率 71.27%，登顶率 25.51%，选取次数 7,444。 推荐英雄: 希瓦娜, 奥恩, 沃利贝尔, 塔姆, 黛安娜。",
+        "item_name": "死亡之蔑",
+        "recipe": "",
+        "avg_rank": "#3.36",
+        "top4_rate": "71.27%",
+        "win_rate": "25.51%",
+        "pick_count": "7,444",
+        "recommended_champions": [
+          "希瓦娜",
+          "奥恩",
+          "沃利贝尔",
+          "塔姆",
+          "黛安娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_72_黎明圣盾",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 黎明圣盾。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.51，前四率 67.97%，登顶率 24.60%，选取次数 7,178。 推荐英雄: 奥恩, 布隆, 斯维因, 诺提勒斯, 孙悟空。",
+        "item_name": "黎明圣盾",
+        "recipe": "",
+        "avg_rank": "#3.51",
+        "top4_rate": "67.97%",
+        "win_rate": "24.60%",
+        "pick_count": "7,178",
+        "recommended_champions": [
+          "奥恩",
+          "布隆",
+          "斯维因",
+          "诺提勒斯",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_73_智慧末刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 智慧末刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.38，前四率 70.75%，登顶率 25.04%，选取次数 7,004。 推荐英雄: 千珏, 黛安娜, 阿兹尔, 奥恩, 卢锡安与赛娜。",
+        "item_name": "智慧末刃",
+        "recipe": "",
+        "avg_rank": "#3.38",
+        "top4_rate": "70.75%",
+        "win_rate": "25.04%",
+        "pick_count": "7,004",
+        "recommended_champions": [
+          "千珏",
+          "黛安娜",
+          "阿兹尔",
+          "奥恩",
+          "卢锡安与赛娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_74_约德尔人纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 约德尔人纹章+。 合成公式: 金铲铲 + 负极斗篷。 统计数据: 平均排名 #4.32，前四率 52.75%，登顶率 16.49%，选取次数 6,963。 推荐英雄: 斯维因, 希瓦娜, 奥恩, 卢锡安与赛娜, 沃利贝尔。",
+        "item_name": "约德尔人纹章+",
+        "recipe": "金铲铲 + 负极斗篷",
+        "avg_rank": "#4.32",
+        "top4_rate": "52.75%",
+        "win_rate": "16.49%",
+        "pick_count": "6,963",
+        "recommended_champions": [
+          "斯维因",
+          "希瓦娜",
+          "奥恩",
+          "卢锡安与赛娜",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_75_狙击手的专注",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 狙击手的专注。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.69，前四率 64.86%，登顶率 21.78%，选取次数 6,896。 推荐英雄: 卢锡安与赛娜, 千珏, 芸阿娜, 厄运小姐, 阿兹尔。",
+        "item_name": "狙击手的专注",
+        "recipe": "",
+        "avg_rank": "#3.69",
+        "top4_rate": "64.86%",
+        "win_rate": "21.78%",
+        "pick_count": "6,896",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "芸阿娜",
+          "厄运小姐",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_76_探索者的护臂",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 探索者的护臂。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.44，前四率 70.09%，登顶率 24.10%，选取次数 6,717。 推荐英雄: 费德提克, 奥恩, 黛安娜, 瑟提, 塞拉斯。",
+        "item_name": "探索者的护臂",
+        "recipe": "",
+        "avg_rank": "#3.44",
+        "top4_rate": "70.09%",
+        "win_rate": "24.10%",
+        "pick_count": "6,717",
+        "recommended_champions": [
+          "费德提克",
+          "奥恩",
+          "黛安娜",
+          "瑟提",
+          "塞拉斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_77_神谕者纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 神谕者纹章+。 合成公式: 金锅锅 + 女神之泪。 统计数据: 平均排名 #4.27，前四率 54.5%，登顶率 14.68%，选取次数 6,696。 推荐英雄: 安妮, 萨勒芬妮, 卢锡安与赛娜, 巴德, 拉克丝。",
+        "item_name": "神谕者纹章+",
+        "recipe": "金锅锅 + 女神之泪",
+        "avg_rank": "#4.27",
+        "top4_rate": "54.5%",
+        "win_rate": "14.68%",
+        "pick_count": "6,696",
+        "recommended_champions": [
+          "安妮",
+          "萨勒芬妮",
+          "卢锡安与赛娜",
+          "巴德",
+          "拉克丝"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_78_中娅悖论",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 中娅悖论。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.49，前四率 68.11%，登顶率 24.44%，选取次数 6,607。 推荐英雄: 费德提克, 奥恩, 塞拉斯, 塔姆, 黛安娜。",
+        "item_name": "中娅悖论",
+        "recipe": "",
+        "avg_rank": "#3.49",
+        "top4_rate": "68.11%",
+        "win_rate": "24.44%",
+        "pick_count": "6,607",
+        "recommended_champions": [
+          "费德提克",
+          "奥恩",
+          "塞拉斯",
+          "塔姆",
+          "黛安娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_79_黎明核心",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 黎明核心。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.64，前四率 65.1%，登顶率 22.23%，选取次数 6,607。 推荐英雄: 厄运小姐, 卢锡安与赛娜, 萨勒芬妮, 基兰, 奥恩。",
+        "item_name": "黎明核心",
+        "recipe": "",
+        "avg_rank": "#3.64",
+        "top4_rate": "65.1%",
+        "win_rate": "22.23%",
+        "pick_count": "6,607",
+        "recommended_champions": [
+          "厄运小姐",
+          "卢锡安与赛娜",
+          "萨勒芬妮",
+          "基兰",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_80_虚空护手",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 虚空护手。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.44，前四率 69.02%，登顶率 25.19%，选取次数 6,607。 推荐英雄: 奥恩, 斯维因, 布隆, 孙悟空, 提伯斯。",
+        "item_name": "虚空护手",
+        "recipe": "",
+        "avg_rank": "#3.44",
+        "top4_rate": "69.02%",
+        "win_rate": "25.19%",
+        "pick_count": "6,607",
+        "recommended_champions": [
+          "奥恩",
+          "斯维因",
+          "布隆",
+          "孙悟空",
+          "提伯斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_81_护卫纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 护卫纹章+。 合成公式: 金锅锅 + 锁子甲。 统计数据: 平均排名 #4.22，前四率 55.1%，登顶率 14.29%，选取次数 6,496。 推荐英雄: 斯维因, 布隆, 塔里克, 孙悟空, 提伯斯。",
+        "item_name": "护卫纹章+",
+        "recipe": "金锅锅 + 锁子甲",
+        "avg_rank": "#4.22",
+        "top4_rate": "55.1%",
+        "win_rate": "14.29%",
+        "pick_count": "6,496",
+        "recommended_champions": [
+          "斯维因",
+          "布隆",
+          "塔里克",
+          "孙悟空",
+          "提伯斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_82_黄昏圣盾",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 黄昏圣盾。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.55，前四率 67.22%，登顶率 23.62%，选取次数 6,491。 推荐英雄: 奥恩, 斯维因, 布隆, 提伯斯, 塔里克。",
+        "item_name": "黄昏圣盾",
+        "recipe": "",
+        "avg_rank": "#3.55",
+        "top4_rate": "67.22%",
+        "win_rate": "23.62%",
+        "pick_count": "6,491",
+        "recommended_champions": [
+          "奥恩",
+          "斯维因",
+          "布隆",
+          "提伯斯",
+          "塔里克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_83_鱼骨头",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 鱼骨头。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.41，前四率 69.81%，登顶率 25.02%，选取次数 6,440。 推荐英雄: 卢锡安与赛娜, 千珏, 芸阿娜, 厄运小姐, 阿兹尔。",
+        "item_name": "鱼骨头",
+        "recipe": "",
+        "avg_rank": "#3.41",
+        "top4_rate": "69.81%",
+        "win_rate": "25.02%",
+        "pick_count": "6,440",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "芸阿娜",
+          "厄运小姐",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_84_疾射火炮",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 疾射火炮。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.47，前四率 69.18%，登顶率 23.39%，选取次数 6,383。 推荐英雄: 千珏, 卢锡安与赛娜, 卑尔维斯, 阿兹尔, 沃利贝尔。",
+        "item_name": "疾射火炮",
+        "recipe": "",
+        "avg_rank": "#3.47",
+        "top4_rate": "69.18%",
+        "win_rate": "23.39%",
+        "pick_count": "6,383",
+        "recommended_champions": [
+          "千珏",
+          "卢锡安与赛娜",
+          "卑尔维斯",
+          "阿兹尔",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_85_碎舰者",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 碎舰者。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.48，前四率 69.26%，登顶率 24.36%，选取次数 6,346。 推荐英雄: 奥恩, 希瓦娜, 塔姆, 提伯斯, 瑟提。",
+        "item_name": "碎舰者",
+        "recipe": "",
+        "avg_rank": "#3.48",
+        "top4_rate": "69.26%",
+        "win_rate": "24.36%",
+        "pick_count": "6,346",
+        "recommended_champions": [
+          "奥恩",
+          "希瓦娜",
+          "塔姆",
+          "提伯斯",
+          "瑟提"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_86_金币收集者",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 金币收集者。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.26，前四率 73.31%，登顶率 26.10%，选取次数 6,318。 推荐英雄: 卢锡安与赛娜, 千珏, 厄运小姐, 芸阿娜, 希瓦娜。",
+        "item_name": "金币收集者",
+        "recipe": "",
+        "avg_rank": "#3.26",
+        "top4_rate": "73.31%",
+        "win_rate": "26.10%",
+        "pick_count": "6,318",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "厄运小姐",
+          "芸阿娜",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_87_裁决战士纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 裁决战士纹章+。 合成公式: 金锅锅 + 暴风之剑。 统计数据: 平均排名 #4.13，前四率 56.88%，登顶率 15.13%，选取次数 6,313。 推荐英雄: 安蓓萨, 希瓦娜, 沃利贝尔, 纳什男爵, 卢锡安与赛娜。",
+        "item_name": "裁决战士纹章+",
+        "recipe": "金锅锅 + 暴风之剑",
+        "avg_rank": "#4.13",
+        "top4_rate": "56.88%",
+        "win_rate": "15.13%",
+        "pick_count": "6,313",
+        "recommended_champions": [
+          "安蓓萨",
+          "希瓦娜",
+          "沃利贝尔",
+          "纳什男爵",
+          "卢锡安与赛娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_88_斯塔缇克电刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 斯塔缇克电刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.46，前四率 69.01%，登顶率 23.10%，选取次数 6,221。 推荐英雄: 千珏, 阿兹尔, 卢锡安与赛娜, 卡莎, 奥恩。",
+        "item_name": "斯塔缇克电刃",
+        "recipe": "",
+        "avg_rank": "#3.46",
+        "top4_rate": "69.01%",
+        "win_rate": "23.10%",
+        "pick_count": "6,221",
+        "recommended_champions": [
+          "千珏",
+          "阿兹尔",
+          "卢锡安与赛娜",
+          "卡莎",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_89_皮尔特沃夫纹章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 皮尔特沃夫纹章。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.43，前四率 51.26%，登顶率 13.39%，选取次数 6,207。 推荐英雄: 奥恩, 布隆, 斯维因, 塔里克, 瑟庄妮。",
+        "item_name": "皮尔特沃夫纹章",
+        "recipe": "无/不可合成",
+        "avg_rank": "#4.43",
+        "top4_rate": "51.26%",
+        "win_rate": "13.39%",
+        "pick_count": "6,207",
+        "recommended_champions": [
+          "奥恩",
+          "布隆",
+          "斯维因",
+          "塔里克",
+          "瑟庄妮"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_90_恶火小斧",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 恶火小斧。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.34，前四率 70.74%，登顶率 26.25%，选取次数 6,206。 推荐英雄: 希瓦娜, 奥恩, 沃利贝尔, 千珏, 卑尔维斯。",
+        "item_name": "恶火小斧",
+        "recipe": "",
+        "avg_rank": "#3.34",
+        "top4_rate": "70.74%",
+        "win_rate": "26.25%",
+        "pick_count": "6,206",
+        "recommended_champions": [
+          "希瓦娜",
+          "奥恩",
+          "沃利贝尔",
+          "千珏",
+          "卑尔维斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_91_神盾使纹章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 神盾使纹章。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.91，前四率 61.16%，登顶率 18.22%，选取次数 6,102。 推荐英雄: 斯维因, 塔里克, 瑟庄妮, 孙悟空, 希瓦娜。",
+        "item_name": "神盾使纹章",
+        "recipe": "无/不可合成",
+        "avg_rank": "#3.91",
+        "top4_rate": "61.16%",
+        "win_rate": "18.22%",
+        "pick_count": "6,102",
+        "recommended_champions": [
+          "斯维因",
+          "塔里克",
+          "瑟庄妮",
+          "孙悟空",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_92_暗裔之镰",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 暗裔之镰。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.62，前四率 66.24%，登顶率 21.33%，选取次数 6,084。 推荐英雄: 希瓦娜, 奥恩, 安蓓萨, 沃利贝尔, 卑尔维斯。",
+        "item_name": "暗裔之镰",
+        "recipe": "",
+        "avg_rank": "#3.62",
+        "top4_rate": "66.24%",
+        "win_rate": "21.33%",
+        "pick_count": "6,084",
+        "recommended_champions": [
+          "希瓦娜",
+          "奥恩",
+          "安蓓萨",
+          "沃利贝尔",
+          "卑尔维斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_93_巫妖之祸",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 巫妖之祸。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.35，前四率 70.91%，登顶率 24.46%，选取次数 5,802。 推荐英雄: 阿兹尔, 萨勒芬妮, 奥恩, 费德提克, 基兰。",
+        "item_name": "巫妖之祸",
+        "recipe": "",
+        "avg_rank": "#3.35",
+        "top4_rate": "70.91%",
+        "win_rate": "24.46%",
+        "pick_count": "5,802",
+        "recommended_champions": [
+          "阿兹尔",
+          "萨勒芬妮",
+          "奥恩",
+          "费德提克",
+          "基兰"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_94_飞升护符",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 飞升护符。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.28，前四率 71.98%，登顶率 26.22%，选取次数 5,743。 推荐英雄: 奥恩, 瑟提, 塔姆, 赛恩, 希瓦娜。",
+        "item_name": "飞升护符",
+        "recipe": "",
+        "avg_rank": "#3.28",
+        "top4_rate": "71.98%",
+        "win_rate": "26.22%",
+        "pick_count": "5,743",
+        "recommended_champions": [
+          "奥恩",
+          "瑟提",
+          "塔姆",
+          "赛恩",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_95_视界专注",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 视界专注。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.36，前四率 70.69%，登顶率 25.39%，选取次数 5,702。 推荐英雄: 费德提克, 斯维因, 奥恩, 丽桑卓, 凯南。",
+        "item_name": "视界专注",
+        "recipe": "",
+        "avg_rank": "#3.36",
+        "top4_rate": "70.69%",
+        "win_rate": "25.39%",
+        "pick_count": "5,702",
+        "recommended_champions": [
+          "费德提克",
+          "斯维因",
+          "奥恩",
+          "丽桑卓",
+          "凯南"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_96_枯萎珠宝",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 枯萎珠宝。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.49，前四率 68.87%，登顶率 23.36%，选取次数 5,686。 推荐英雄: 费德提克, 安妮, 奥恩, 萨勒芬妮, 基兰。",
+        "item_name": "枯萎珠宝",
+        "recipe": "",
+        "avg_rank": "#3.49",
+        "top4_rate": "68.87%",
+        "win_rate": "23.36%",
+        "pick_count": "5,686",
+        "recommended_champions": [
+          "费德提克",
+          "安妮",
+          "奥恩",
+          "萨勒芬妮",
+          "基兰"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_97_金锅铲冠冕+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 金锅铲冠冕+。 合成公式: 金铲铲 + 金锅锅。 统计数据: 平均排名 #4.13，前四率 56.74%，登顶率 15.80%，选取次数 5,638。 推荐英雄: 萨勒芬妮, 艾希, 奥恩, 卢锡安与赛娜, 阿兹尔。",
+        "item_name": "金锅铲冠冕+",
+        "recipe": "金铲铲 + 金锅锅",
+        "avg_rank": "#4.13",
+        "top4_rate": "56.74%",
+        "win_rate": "15.80%",
+        "pick_count": "5,638",
+        "recommended_champions": [
+          "萨勒芬妮",
+          "艾希",
+          "奥恩",
+          "卢锡安与赛娜",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_98_祖安纹章+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 祖安纹章+。 合成公式: 金铲铲 + 拳套。 统计数据: 平均排名 #4.79，前四率 44.5%，登顶率 8.77%，选取次数 5,530。 推荐英雄: 卢锡安与赛娜, 千珏, 萨勒芬妮, 希瓦娜, 斯维因。",
+        "item_name": "祖安纹章+",
+        "recipe": "金铲铲 + 拳套",
+        "avg_rank": "#4.79",
+        "top4_rate": "44.5%",
+        "win_rate": "8.77%",
+        "pick_count": "5,530",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "萨勒芬妮",
+          "希瓦娜",
+          "斯维因"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_99_暗裔之杖",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 暗裔之杖。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.64，前四率 65.98%，登顶率 21.68%，选取次数 5,420。 推荐英雄: 费德提克, 奥恩, 安妮, 阿兹尔, 萨勒芬妮。",
+        "item_name": "暗裔之杖",
+        "recipe": "",
+        "avg_rank": "#3.64",
+        "top4_rate": "65.98%",
+        "win_rate": "21.68%",
+        "pick_count": "5,420",
+        "recommended_champions": [
+          "费德提克",
+          "奥恩",
+          "安妮",
+          "阿兹尔",
+          "萨勒芬妮"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_100_永恒契约",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 永恒契约。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.46，前四率 69.07%，登顶率 23.73%，选取次数 5,399。 推荐英雄: 费德提克, 奥恩, 安妮, 丽桑卓, 基兰。",
+        "item_name": "永恒契约",
+        "recipe": "",
+        "avg_rank": "#3.46",
+        "top4_rate": "69.07%",
+        "win_rate": "23.73%",
+        "pick_count": "5,399",
+        "recommended_champions": [
+          "费德提克",
+          "奥恩",
+          "安妮",
+          "丽桑卓",
+          "基兰"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_101_密银黎明",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 密银黎明。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.28，前四率 72.24%，登顶率 27.00%，选取次数 5,378。 推荐英雄: 奥恩, 希瓦娜, 孙悟空, 沃利贝尔, 安蓓萨。",
+        "item_name": "密银黎明",
+        "recipe": "",
+        "avg_rank": "#3.28",
+        "top4_rate": "72.24%",
+        "win_rate": "27.00%",
+        "pick_count": "5,378",
+        "recommended_champions": [
+          "奥恩",
+          "希瓦娜",
+          "孙悟空",
+          "沃利贝尔",
+          "安蓓萨"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_102_卢登的激荡",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 卢登的激荡。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.45，前四率 69.69%，登顶率 22.92%，选取次数 5,367。 推荐英雄: 费德提克, 丽桑卓, 奥恩, 卢锡安与赛娜, 瑟提。",
+        "item_name": "卢登的激荡",
+        "recipe": "",
+        "avg_rank": "#3.45",
+        "top4_rate": "69.69%",
+        "win_rate": "22.92%",
+        "pick_count": "5,367",
+        "recommended_champions": [
+          "费德提克",
+          "丽桑卓",
+          "奥恩",
+          "卢锡安与赛娜",
+          "瑟提"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_103_暗行者之爪",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 暗行者之爪。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.4，前四率 70.66%，登顶率 24.42%，选取次数 5,262。 推荐英雄: 希瓦娜, 奥恩, 沃利贝尔, 普朗克, 安蓓萨。",
+        "item_name": "暗行者之爪",
+        "recipe": "",
+        "avg_rank": "#3.4",
+        "top4_rate": "70.66%",
+        "win_rate": "24.42%",
+        "pick_count": "5,262",
+        "recommended_champions": [
+          "希瓦娜",
+          "奥恩",
+          "沃利贝尔",
+          "普朗克",
+          "安蓓萨"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_104_大亨之铠",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 大亨之铠。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.22，前四率 55.31%，登顶率 15.58%，选取次数 5,142。 推荐英雄: 奥恩, 诺提勒斯, 孙悟空, 峡谷先锋, 提伯斯。",
+        "item_name": "大亨之铠",
+        "recipe": "",
+        "avg_rank": "#4.22",
+        "top4_rate": "55.31%",
+        "win_rate": "15.58%",
+        "pick_count": "5,142",
+        "recommended_champions": [
+          "奥恩",
+          "诺提勒斯",
+          "孙悟空",
+          "峡谷先锋",
+          "提伯斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_105_枪手纹章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 枪手纹章。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.94，前四率 59.82%，登顶率 18.79%，选取次数 5,135。 推荐英雄: 千珏, 希瓦娜, 芸阿娜, 普朗克, 艾希。",
+        "item_name": "枪手纹章",
+        "recipe": "无/不可合成",
+        "avg_rank": "#3.94",
+        "top4_rate": "59.82%",
+        "win_rate": "18.79%",
+        "pick_count": "5,135",
+        "recommended_champions": [
+          "千珏",
+          "希瓦娜",
+          "芸阿娜",
+          "普朗克",
+          "艾希"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_106_耀光使纹章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 耀光使纹章。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.12，前四率 56.8%，登顶率 17.15%，选取次数 5,049。 推荐英雄: 费德提克, 卢锡安与赛娜, 斯维因, 安妮, 辛吉德。",
+        "item_name": "耀光使纹章",
+        "recipe": "无/不可合成",
+        "avg_rank": "#4.12",
+        "top4_rate": "56.8%",
+        "win_rate": "17.15%",
+        "pick_count": "5,049",
+        "recommended_champions": [
+          "费德提克",
+          "卢锡安与赛娜",
+          "斯维因",
+          "安妮",
+          "辛吉德"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_107_以绪塔尔纹章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 以绪塔尔纹章。 合成公式: 无/不可合成。 统计数据: 平均排名 #5.16，前四率 37.9%，登顶率 12.06%，选取次数 4,554。 推荐英雄: 蔚, 斯维因, 塔里克, 瑟庄妮, 奥恩。",
+        "item_name": "以绪塔尔纹章",
+        "recipe": "无/不可合成",
+        "avg_rank": "#5.16",
+        "top4_rate": "37.9%",
+        "win_rate": "12.06%",
+        "pick_count": "4,554",
+        "recommended_champions": [
+          "蔚",
+          "斯维因",
+          "塔里克",
+          "瑟庄妮",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_108_狙神纹章",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 狙神纹章。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.24，前四率 54.4%，登顶率 14.63%，选取次数 4,368。 推荐英雄: 卑尔维斯, 拉克丝, 卢锡安与赛娜, 千珏, 阿兹尔。",
+        "item_name": "狙神纹章",
+        "recipe": "无/不可合成",
+        "avg_rank": "#4.24",
+        "top4_rate": "54.4%",
+        "win_rate": "14.63%",
+        "pick_count": "4,368",
+        "recommended_champions": [
+          "卑尔维斯",
+          "拉克丝",
+          "卢锡安与赛娜",
+          "千珏",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_109_黑市炸药",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 黑市炸药。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.56，前四率 65.36%，登顶率 26.54%，选取次数 4,073。 推荐英雄: 厄运小姐, 菲兹, 塔姆, 诺提勒斯, 崔斯特。",
+        "item_name": "黑市炸药",
+        "recipe": "",
+        "avg_rank": "#3.56",
+        "top4_rate": "65.36%",
+        "win_rate": "26.54%",
+        "pick_count": "4,073",
+        "recommended_champions": [
+          "厄运小姐",
+          "菲兹",
+          "塔姆",
+          "诺提勒斯",
+          "崔斯特"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_110_投机者之刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 投机者之刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.08，前四率 58.03%，登顶率 16.91%，选取次数 3,667。 推荐英雄: 千珏, 卢锡安与赛娜, 阿兹尔, 芸阿娜, 卡莎。",
+        "item_name": "投机者之刃",
+        "recipe": "",
+        "avg_rank": "#4.08",
+        "top4_rate": "58.03%",
+        "win_rate": "16.91%",
+        "pick_count": "3,667",
+        "recommended_champions": [
+          "千珏",
+          "卢锡安与赛娜",
+          "阿兹尔",
+          "芸阿娜",
+          "卡莎"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_111_金锅锅冠冕+",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 金锅锅冠冕+。 合成公式: 金锅锅 + 金锅锅。 统计数据: 平均排名 #4，前四率 58.76%，登顶率 18.27%，选取次数 3,218。 推荐英雄: 蔚, 奥恩, 米利欧, 妮蔻, 奥莉安娜。",
+        "item_name": "金锅锅冠冕+",
+        "recipe": "金锅锅 + 金锅锅",
+        "avg_rank": "#4",
+        "top4_rate": "58.76%",
+        "win_rate": "18.27%",
+        "pick_count": "3,218",
+        "recommended_champions": [
+          "蔚",
+          "奥恩",
+          "米利欧",
+          "妮蔻",
+          "奥莉安娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_112_金铲铲",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 金铲铲。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.32，前四率 53.8%，登顶率 14.77%，选取次数 1,801。 推荐英雄: 奥恩, 萨勒芬妮, 蔚, 希瓦娜, 安蓓萨。",
+        "item_name": "金铲铲",
+        "recipe": "",
+        "avg_rank": "#4.32",
+        "top4_rate": "53.8%",
+        "win_rate": "14.77%",
+        "pick_count": "1,801",
+        "recommended_champions": [
+          "奥恩",
+          "萨勒芬妮",
+          "蔚",
+          "希瓦娜",
+          "安蓓萨"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_113_巨型九头蛇",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 巨型九头蛇。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.57，前四率 66%，登顶率 24.37%，选取次数 1,797。 推荐英雄: 沃利贝尔, 希瓦娜, 赛恩, 奥恩, 卑尔维斯。",
+        "item_name": "巨型九头蛇",
+        "recipe": "",
+        "avg_rank": "#3.57",
+        "top4_rate": "66%",
+        "win_rate": "24.37%",
+        "pick_count": "1,797",
+        "recommended_champions": [
+          "沃利贝尔",
+          "希瓦娜",
+          "赛恩",
+          "奥恩",
+          "卑尔维斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_114_光明版鬼索的狂暴之刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版鬼索的狂暴之刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.04，前四率 58.39%，登顶率 17.40%，选取次数 1,644。 推荐英雄: 黛安娜, 芸阿娜, 千珏, 卡莎, 阿兹尔。",
+        "item_name": "光明版鬼索的狂暴之刃",
+        "recipe": "",
+        "avg_rank": "#4.04",
+        "top4_rate": "58.39%",
+        "win_rate": "17.40%",
+        "pick_count": "1,644",
+        "recommended_champions": [
+          "黛安娜",
+          "芸阿娜",
+          "千珏",
+          "卡莎",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_115_光明版巨人杀手",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版巨人杀手。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.78，前四率 63.32%，登顶率 18.75%，选取次数 1,445。 推荐英雄: 卢锡安与赛娜, 千珏, 芸阿娜, 岩宝, 卡莎。",
+        "item_name": "光明版巨人杀手",
+        "recipe": "",
+        "avg_rank": "#3.78",
+        "top4_rate": "63.32%",
+        "win_rate": "18.75%",
+        "pick_count": "1,445",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "芸阿娜",
+          "岩宝",
+          "卡莎"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_116_光明版饮血剑",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版饮血剑。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.86，前四率 61.18%，登顶率 22.08%，选取次数 1,440。 推荐英雄: 黛安娜, 岩宝, 希瓦娜, 亚托克斯, 卑尔维斯。",
+        "item_name": "光明版饮血剑",
+        "recipe": "",
+        "avg_rank": "#3.86",
+        "top4_rate": "61.18%",
+        "win_rate": "22.08%",
+        "pick_count": "1,440",
+        "recommended_champions": [
+          "黛安娜",
+          "岩宝",
+          "希瓦娜",
+          "亚托克斯",
+          "卑尔维斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_117_光明版正义之手",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版正义之手。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.83，前四率 62%，登顶率 20.76%，选取次数 1,387。 推荐英雄: 岩宝, 黛安娜, 普朗克, 塞拉斯, 瑟提。",
+        "item_name": "光明版正义之手",
+        "recipe": "",
+        "avg_rank": "#3.83",
+        "top4_rate": "62%",
+        "win_rate": "20.76%",
+        "pick_count": "1,387",
+        "recommended_champions": [
+          "岩宝",
+          "黛安娜",
+          "普朗克",
+          "塞拉斯",
+          "瑟提"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_118_光明版狂徒铠甲",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版狂徒铠甲。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.52，前四率 48.5%，登顶率 14.74%，选取次数 1,303。 推荐英雄: 斯维因, 提伯斯, 布隆, 孙悟空, 盖伦。",
+        "item_name": "光明版狂徒铠甲",
+        "recipe": "",
+        "avg_rank": "#4.52",
+        "top4_rate": "48.5%",
+        "win_rate": "14.74%",
+        "pick_count": "1,303",
+        "recommended_champions": [
+          "斯维因",
+          "提伯斯",
+          "布隆",
+          "孙悟空",
+          "盖伦"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_119_光明版无尽之刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版无尽之刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.71，前四率 63.56%，登顶率 23.65%，选取次数 1,243。 推荐英雄: 卢锡安与赛娜, 岩宝, 芸阿娜, 千珏, 厄运小姐。",
+        "item_name": "光明版无尽之刃",
+        "recipe": "",
+        "avg_rank": "#3.71",
+        "top4_rate": "63.56%",
+        "win_rate": "23.65%",
+        "pick_count": "1,243",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "岩宝",
+          "芸阿娜",
+          "千珏",
+          "厄运小姐"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_120_德玛西亚王冠",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 德玛西亚王冠。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.18，前四率 57.78%，登顶率 12.45%，选取次数 1,189。 推荐英雄: 薇恩, 芸阿娜, 卡莎, 德莱文, 千珏。",
+        "item_name": "德玛西亚王冠",
+        "recipe": "",
+        "avg_rank": "#4.18",
+        "top4_rate": "57.78%",
+        "win_rate": "12.45%",
+        "pick_count": "1,189",
+        "recommended_champions": [
+          "薇恩",
+          "芸阿娜",
+          "卡莎",
+          "德莱文",
+          "千珏"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_121_光明版珠光护手",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版珠光护手。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.92，前四率 58.63%，登顶率 21.54%，选取次数 1,170。 推荐英雄: 梅尔, 卡莎, 塞拉斯, 拉克丝, 巴德。",
+        "item_name": "光明版珠光护手",
+        "recipe": "",
+        "avg_rank": "#3.92",
+        "top4_rate": "58.63%",
+        "win_rate": "21.54%",
+        "pick_count": "1,170",
+        "recommended_champions": [
+          "梅尔",
+          "卡莎",
+          "塞拉斯",
+          "拉克丝",
+          "巴德"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_122_光明版海妖之怒",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版海妖之怒。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.59，前四率 68.31%，登顶率 20.38%，选取次数 1,158。 推荐英雄: 芸阿娜, 千珏, 卢锡安与赛娜, 薇恩, 卑尔维斯。",
+        "item_name": "光明版海妖之怒",
+        "recipe": "",
+        "avg_rank": "#3.59",
+        "top4_rate": "68.31%",
+        "win_rate": "20.38%",
+        "pick_count": "1,158",
+        "recommended_champions": [
+          "芸阿娜",
+          "千珏",
+          "卢锡安与赛娜",
+          "薇恩",
+          "卑尔维斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_123_光明版朔极之矛",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版朔极之矛。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.72，前四率 63.43%，登顶率 23.71%，选取次数 1,143。 推荐英雄: 安妮, 卢锡安与赛娜, 梅尔, 拉克丝, 巴德。",
+        "item_name": "光明版朔极之矛",
+        "recipe": "",
+        "avg_rank": "#3.72",
+        "top4_rate": "63.43%",
+        "win_rate": "23.71%",
+        "pick_count": "1,143",
+        "recommended_champions": [
+          "安妮",
+          "卢锡安与赛娜",
+          "梅尔",
+          "拉克丝",
+          "巴德"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_124_光明版蓝霸符",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版蓝霸符。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.99，前四率 59.74%，登顶率 20.31%，选取次数 1,083。 推荐英雄: 安妮, 梅尔, 拉克丝, 丽桑卓, 卢锡安与赛娜。",
+        "item_name": "光明版蓝霸符",
+        "recipe": "",
+        "avg_rank": "#3.99",
+        "top4_rate": "59.74%",
+        "win_rate": "20.31%",
+        "pick_count": "1,083",
+        "recommended_champions": [
+          "安妮",
+          "梅尔",
+          "拉克丝",
+          "丽桑卓",
+          "卢锡安与赛娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_125_光明版泰坦的坚决",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版泰坦的坚决。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.61，前四率 65.97%，登顶率 22.81%，选取次数 1,052。 推荐英雄: 黛安娜, 岩宝, 希瓦娜, 瑟提, 安蓓萨。",
+        "item_name": "光明版泰坦的坚决",
+        "recipe": "",
+        "avg_rank": "#3.61",
+        "top4_rate": "65.97%",
+        "win_rate": "22.81%",
+        "pick_count": "1,052",
+        "recommended_champions": [
+          "黛安娜",
+          "岩宝",
+          "希瓦娜",
+          "瑟提",
+          "安蓓萨"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_126_光明版斯特拉克的挑战护手",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版斯特拉克的挑战护手。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.64，前四率 63.75%，登顶率 27.29%，选取次数 960。 推荐英雄: 岩宝, 希瓦娜, 普朗克, 安蓓萨, 沃利贝尔。",
+        "item_name": "光明版斯特拉克的挑战护手",
+        "recipe": "",
+        "avg_rank": "#3.64",
+        "top4_rate": "63.75%",
+        "win_rate": "27.29%",
+        "pick_count": "960",
+        "recommended_champions": [
+          "岩宝",
+          "希瓦娜",
+          "普朗克",
+          "安蓓萨",
+          "沃利贝尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_127_光明版适应性头盔",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版适应性头盔。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.24，前四率 53.05%，登顶率 20.36%，选取次数 933。 推荐英雄: 安妮, 梅尔, 丽桑卓, 岩宝, 希瓦娜。",
+        "item_name": "光明版适应性头盔",
+        "recipe": "",
+        "avg_rank": "#4.24",
+        "top4_rate": "53.05%",
+        "win_rate": "20.36%",
+        "pick_count": "933",
+        "recommended_champions": [
+          "安妮",
+          "梅尔",
+          "丽桑卓",
+          "岩宝",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_128_光明版石像鬼石板甲",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版石像鬼石板甲。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.38，前四率 52.31%，登顶率 16.90%，选取次数 929。 推荐英雄: 斯维因, 峡谷先锋, 布隆, 孙悟空, 提伯斯。",
+        "item_name": "光明版石像鬼石板甲",
+        "recipe": "",
+        "avg_rank": "#4.38",
+        "top4_rate": "52.31%",
+        "win_rate": "16.90%",
+        "pick_count": "929",
+        "recommended_champions": [
+          "斯维因",
+          "峡谷先锋",
+          "布隆",
+          "孙悟空",
+          "提伯斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_129_光明版振奋盔甲",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版振奋盔甲。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.1，前四率 57.59%，登顶率 17.55%，选取次数 929。 推荐英雄: 斯维因, 提伯斯, 孙悟空, 盖伦, 布隆。",
+        "item_name": "光明版振奋盔甲",
+        "recipe": "",
+        "avg_rank": "#4.1",
+        "top4_rate": "57.59%",
+        "win_rate": "17.55%",
+        "pick_count": "929",
+        "recommended_champions": [
+          "斯维因",
+          "提伯斯",
+          "孙悟空",
+          "盖伦",
+          "布隆"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_130_光明版强袭者的链枷",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版强袭者的链枷。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.77，前四率 63.41%，登顶率 20.02%，选取次数 839。 推荐英雄: 卢锡安与赛娜, 岩宝, 芸阿娜, 希瓦娜, 千珏。",
+        "item_name": "光明版强袭者的链枷",
+        "recipe": "",
+        "avg_rank": "#3.77",
+        "top4_rate": "63.41%",
+        "win_rate": "20.02%",
+        "pick_count": "839",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "岩宝",
+          "芸阿娜",
+          "希瓦娜",
+          "千珏"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_131_光明版死亡之刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版死亡之刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.63，前四率 66.17%，登顶率 21.19%，选取次数 807。 推荐英雄: 卢锡安与赛娜, 芸阿娜, 岩宝, 千珏, 希瓦娜。",
+        "item_name": "光明版死亡之刃",
+        "recipe": "",
+        "avg_rank": "#3.63",
+        "top4_rate": "66.17%",
+        "win_rate": "21.19%",
+        "pick_count": "807",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "芸阿娜",
+          "岩宝",
+          "千珏",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_132_光明版灭世者的死亡之帽",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版灭世者的死亡之帽。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.93，前四率 60.15%，登顶率 20.18%，选取次数 778。 推荐英雄: 维迦, 梅尔, 巴德, 费德提克, 瑟提。",
+        "item_name": "光明版灭世者的死亡之帽",
+        "recipe": "",
+        "avg_rank": "#3.93",
+        "top4_rate": "60.15%",
+        "win_rate": "20.18%",
+        "pick_count": "778",
+        "recommended_champions": [
+          "维迦",
+          "梅尔",
+          "巴德",
+          "费德提克",
+          "瑟提"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_133_光明版虚空之杖",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版虚空之杖。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.74，前四率 63.7%，登顶率 24.94%，选取次数 774。 推荐英雄: 安妮, 梅尔, 萨勒芬妮, 费德提克, 阿兹尔。",
+        "item_name": "光明版虚空之杖",
+        "recipe": "",
+        "avg_rank": "#3.74",
+        "top4_rate": "63.7%",
+        "win_rate": "24.94%",
+        "pick_count": "774",
+        "recommended_champions": [
+          "安妮",
+          "梅尔",
+          "萨勒芬妮",
+          "费德提克",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_134_帽子饮品",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 帽子饮品。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.19，前四率 56.24%，登顶率 15.03%，选取次数 745。 推荐英雄: 卢锡安与赛娜, 千珏, 芸阿娜, 阿兹尔, 奥恩。",
+        "item_name": "帽子饮品",
+        "recipe": "",
+        "avg_rank": "#4.19",
+        "top4_rate": "56.24%",
+        "win_rate": "15.03%",
+        "pick_count": "745",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "千珏",
+          "芸阿娜",
+          "阿兹尔",
+          "奥恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_135_光明版纳什之牙",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版纳什之牙。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.82，前四率 61.89%，登顶率 22.68%，选取次数 732。 推荐英雄: 安妮, 梅尔, 巴德, 拉克丝, 阿兹尔。",
+        "item_name": "光明版纳什之牙",
+        "recipe": "",
+        "avg_rank": "#3.82",
+        "top4_rate": "61.89%",
+        "win_rate": "22.68%",
+        "pick_count": "732",
+        "recommended_champions": [
+          "安妮",
+          "梅尔",
+          "巴德",
+          "拉克丝",
+          "阿兹尔"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_136_光明版海克斯科技枪刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版海克斯科技枪刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.48，前四率 68.53%，登顶率 25.45%，选取次数 715。 推荐英雄: 黛安娜, 卡莎, 岩宝, 塞拉斯, 费德提克。",
+        "item_name": "光明版海克斯科技枪刃",
+        "recipe": "",
+        "avg_rank": "#3.48",
+        "top4_rate": "68.53%",
+        "win_rate": "25.45%",
+        "pick_count": "715",
+        "recommended_champions": [
+          "黛安娜",
+          "卡莎",
+          "岩宝",
+          "塞拉斯",
+          "费德提克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_137_光明版水银",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版水银。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.02，前四率 59.42%，登顶率 17.81%，选取次数 685。 推荐英雄: 卑尔维斯, 黛安娜, 岩宝, 希瓦娜, 普朗克。",
+        "item_name": "光明版水银",
+        "recipe": "",
+        "avg_rank": "#4.02",
+        "top4_rate": "59.42%",
+        "win_rate": "17.81%",
+        "pick_count": "685",
+        "recommended_champions": [
+          "卑尔维斯",
+          "黛安娜",
+          "岩宝",
+          "希瓦娜",
+          "普朗克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_138_金锅锅",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 金锅锅。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.78，前四率 45.44%，登顶率 13.05%，选取次数 636。 推荐英雄: 奥恩, 安蓓萨, 萨勒芬妮, 斯维因, 蔚。",
+        "item_name": "金锅锅",
+        "recipe": "",
+        "avg_rank": "#4.78",
+        "top4_rate": "45.44%",
+        "win_rate": "13.05%",
+        "pick_count": "636",
+        "recommended_champions": [
+          "奥恩",
+          "安蓓萨",
+          "萨勒芬妮",
+          "斯维因",
+          "蔚"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_139_光明版日炎斗篷",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版日炎斗篷。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.98，前四率 58.12%，登顶率 21.27%，选取次数 616。 推荐英雄: 斯维因, 孙悟空, 盖伦, 希瓦娜, 赛恩。",
+        "item_name": "光明版日炎斗篷",
+        "recipe": "",
+        "avg_rank": "#3.98",
+        "top4_rate": "58.12%",
+        "win_rate": "21.27%",
+        "pick_count": "616",
+        "recommended_champions": [
+          "斯维因",
+          "孙悟空",
+          "盖伦",
+          "希瓦娜",
+          "赛恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_140_光明版巨龙之爪",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版巨龙之爪。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.16，前四率 56.26%，登顶率 15.77%，选取次数 615。 推荐英雄: 斯维因, 赛恩, 提伯斯, 塔里克, 希瓦娜。",
+        "item_name": "光明版巨龙之爪",
+        "recipe": "",
+        "avg_rank": "#4.16",
+        "top4_rate": "56.26%",
+        "win_rate": "15.77%",
+        "pick_count": "615",
+        "recommended_champions": [
+          "斯维因",
+          "赛恩",
+          "提伯斯",
+          "塔里克",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_141_光明版红霸符",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版红霸符。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.57，前四率 65.61%，登顶率 26.41%，选取次数 602。 推荐英雄: 卢锡安与赛娜, 岩宝, 费德提克, 阿兹尔, 芸阿娜。",
+        "item_name": "光明版红霸符",
+        "recipe": "",
+        "avg_rank": "#3.57",
+        "top4_rate": "65.61%",
+        "win_rate": "26.41%",
+        "pick_count": "602",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "岩宝",
+          "费德提克",
+          "阿兹尔",
+          "芸阿娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_142_光明版棘刺背心",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版棘刺背心。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.58，前四率 68.03%，登顶率 21.43%，选取次数 588。 推荐英雄: 斯维因, 提伯斯, 布隆, 希瓦娜, 赛恩。",
+        "item_name": "光明版棘刺背心",
+        "recipe": "",
+        "avg_rank": "#3.58",
+        "top4_rate": "68.03%",
+        "win_rate": "21.43%",
+        "pick_count": "588",
+        "recommended_champions": [
+          "斯维因",
+          "提伯斯",
+          "布隆",
+          "希瓦娜",
+          "赛恩"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_143_光明版坚定之心",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版坚定之心。 合成公式: 无/不可合成。 统计数据: 平均排名 #4.13，前四率 55.56%，登顶率 16.58%，选取次数 585。 推荐英雄: 斯维因, 提伯斯, 塔里克, 岩宝, 孙悟空。",
+        "item_name": "光明版坚定之心",
+        "recipe": "",
+        "avg_rank": "#4.13",
+        "top4_rate": "55.56%",
+        "win_rate": "16.58%",
+        "pick_count": "585",
+        "recommended_champions": [
+          "斯维因",
+          "提伯斯",
+          "塔里克",
+          "岩宝",
+          "孙悟空"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_144_光明版大天使之杖",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版大天使之杖。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.86，前四率 61.35%，登顶率 18.72%，选取次数 577。 推荐英雄: 梅尔, 巴德, 岩宝, 丽桑卓, 希瓦娜。",
+        "item_name": "光明版大天使之杖",
+        "recipe": "",
+        "avg_rank": "#3.86",
+        "top4_rate": "61.35%",
+        "win_rate": "18.72%",
+        "pick_count": "577",
+        "recommended_champions": [
+          "梅尔",
+          "巴德",
+          "岩宝",
+          "丽桑卓",
+          "希瓦娜"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_145_光明版最后的轻语",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版最后的轻语。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.74，前四率 64.03%，登顶率 23.20%，选取次数 556。 推荐英雄: 卢锡安与赛娜, 芸阿娜, 希瓦娜, 岩宝, 安蓓萨。",
+        "item_name": "光明版最后的轻语",
+        "recipe": "",
+        "avg_rank": "#3.74",
+        "top4_rate": "64.03%",
+        "win_rate": "23.20%",
+        "pick_count": "556",
+        "recommended_champions": [
+          "卢锡安与赛娜",
+          "芸阿娜",
+          "希瓦娜",
+          "岩宝",
+          "安蓓萨"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_146_光明版圣盾使的誓约",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版圣盾使的誓约。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.8，前四率 60.82%，登顶率 25.51%，选取次数 490。 推荐英雄: 斯维因, 塔姆, 塔里克, 岩宝, 提伯斯。",
+        "item_name": "光明版圣盾使的誓约",
+        "recipe": "",
+        "avg_rank": "#3.8",
+        "top4_rate": "60.82%",
+        "win_rate": "25.51%",
+        "pick_count": "490",
+        "recommended_champions": [
+          "斯维因",
+          "塔姆",
+          "塔里克",
+          "岩宝",
+          "提伯斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_147_光明版夜之锋刃",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版夜之锋刃。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.52，前四率 66.38%，登顶率 27.87%，选取次数 470。 推荐英雄: 岩宝, 希瓦娜, 安蓓萨, 瑟提, 费德提克。",
+        "item_name": "光明版夜之锋刃",
+        "recipe": "",
+        "avg_rank": "#3.52",
+        "top4_rate": "66.38%",
+        "win_rate": "27.87%",
+        "pick_count": "470",
+        "recommended_champions": [
+          "岩宝",
+          "希瓦娜",
+          "安蓓萨",
+          "瑟提",
+          "费德提克"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_148_光明版薄暮法袍",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版薄暮法袍。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.68，前四率 63.7%，登顶率 22.83%，选取次数 438。 推荐英雄: 孙悟空, 希瓦娜, 斯维因, 诺提勒斯, 岩宝。",
+        "item_name": "光明版薄暮法袍",
+        "recipe": "",
+        "avg_rank": "#3.68",
+        "top4_rate": "63.7%",
+        "win_rate": "22.83%",
+        "pick_count": "438",
+        "recommended_champions": [
+          "孙悟空",
+          "希瓦娜",
+          "斯维因",
+          "诺提勒斯",
+          "岩宝"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_149_光明版离子火花",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版离子火花。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.62，前四率 65.02%，登顶率 25.12%，选取次数 406。 推荐英雄: 斯维因, 费德提克, 希瓦娜, 瑟提, 塞拉斯。",
+        "item_name": "光明版离子火花",
+        "recipe": "",
+        "avg_rank": "#3.62",
+        "top4_rate": "65.02%",
+        "win_rate": "25.12%",
+        "pick_count": "406",
+        "recommended_champions": [
+          "斯维因",
+          "费德提克",
+          "希瓦娜",
+          "瑟提",
+          "塞拉斯"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_150_光明版莫雷洛秘典",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版莫雷洛秘典。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.59，前四率 63.9%，登顶率 30.75%，选取次数 374。 推荐英雄: 梅尔, 费德提克, 萨勒芬妮, 希瓦娜, 丽桑卓。",
+        "item_name": "光明版莫雷洛秘典",
+        "recipe": "",
+        "avg_rank": "#3.59",
+        "top4_rate": "63.9%",
+        "win_rate": "30.75%",
+        "pick_count": "374",
+        "recommended_champions": [
+          "梅尔",
+          "费德提克",
+          "萨勒芬妮",
+          "希瓦娜",
+          "丽桑卓"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    },
+    {
+      "id": "tft_item_151_光明版冕卫",
+      "values": [],
+      "metadata": {
+        "text": "道具名称: 光明版冕卫。 合成公式: 无/不可合成。 统计数据: 平均排名 #3.76，前四率 60.66%，登顶率 26.56%，选取次数 305。 推荐英雄: 斯维因, 岩宝, 希瓦娜, 费德提克, 瑟提。",
+        "item_name": "光明版冕卫",
+        "recipe": "",
+        "avg_rank": "#3.76",
+        "top4_rate": "60.66%",
+        "win_rate": "26.56%",
+        "pick_count": "305",
+        "recommended_champions": [
+          "斯维因",
+          "岩宝",
+          "希瓦娜",
+          "费德提克",
+          "瑟提"
+        ],
+        "source_url": "https://op.gg/zh-cn/tft/meta-trends/item",
+        "crawled_at": "2025-12-11 22:07:32",
+        "category": "TFT_Item_Stats"
+      }
+    }
+  ]
+}
