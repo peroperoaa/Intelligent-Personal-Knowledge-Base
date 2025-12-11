@@ -3,17 +3,21 @@ import time
 import os
 from pathlib import Path
 from pinecone import Pinecone
+from dotenv import load_dotenv
 
 # --- 配置部分 ---
-# 请替换为你的 Pinecone API Key
-PINECONE_API_KEY = "pcsk_57xrUh_7QgALbLdwRAG5YN7rSsCmum8AdrQ6WW2Uh6PEW6Jt7JL36uEWoUPVpyMMmreBvA"
+# 优先计算路径以加载 .env
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+load_dotenv(PROJECT_ROOT / ".env")
+
+# 从环境变量获取 API Key
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
 # 使用的模型，必须是 Pinecone 支持的模型
 MODEL_NAME = "llama-text-embed-v2" 
 
 # 输入文件和输出文件路径
-SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = SCRIPT_DIR.parent
 # 暂时测试一个文件，后续为运行datas文件夹下所有数据文件
 INPUT_FILE = PROJECT_ROOT / "datas" / "OriginData" / "opgg_tft_items.json"
 OUTPUT_FILE = PROJECT_ROOT / "datas" / "EmbeddedData" / "opgg_tft_items_embedded.json"
