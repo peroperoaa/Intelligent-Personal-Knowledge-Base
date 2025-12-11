@@ -37,7 +37,7 @@ const LoginPage = () => {
     const { username, password } = formData;
 
     if (!username || !password) {
-      toast.error("All fields are required.");
+      toast.error("请填写所有字段");
     }
 
     try { 
@@ -62,14 +62,18 @@ const LoginPage = () => {
         localStorage.setItem("refreshToken", data.refresh);
         localStorage.setItem("isLoggedIn", "true");
 
-        toast.success("Logged in")
+        toast.success("登录成功")
         setIsLoggedIn(true);
       } else {
-        toast.error("Error Occured")
+        toast.error("发生错误")
       }
-    } catch (err) {
-      toast.error("Unable to connect to server")
+    } catch (err: any) {
       console.log(err)
+      if (err.response && err.response.data && err.response.data.detail) {
+        toast.error(err.response.data.detail);
+      } else {
+        toast.error("无法连接到服务器");
+      }
     }
     finally{
     }
