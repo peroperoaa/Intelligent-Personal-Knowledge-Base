@@ -30,7 +30,7 @@ const SignupPage = () => {
 
     // Basic validation
     if (!username || !password || !confirmPassword) {
-      toast.warning("All fields are required.");
+      toast.warning("请填写所有字段");
       return;
     }
 
@@ -52,14 +52,34 @@ const SignupPage = () => {
       const data = await response.data;
 
       if (response.status==201) {
-        toast.success("Signed Up")
+        toast.success("注册成功")
         window.location.href = "/login";
       } else {
         // Handle backend errors
-        toast.error("An error occurred during registration.");
+        toast.error("注册过程中发生错误");
       }
-    } catch (err) {
-      toast.error("Failed to connect to the server.");
+    } catch (err: any) {
+      console.log(err);
+      if (err.response && err.response.data) {
+        // 尝试提取后端返回的具体错误信息
+        const errors = err.response.data;
+        if (typeof errors === 'object') {
+           // 遍历错误对象，显示第一个错误
+           const firstKey = Object.keys(errors)[0];
+           const firstError = errors[firstKey];
+           if (Array.isArray(firstError)) {
+             toast.error(firstError[0]);
+           } else if (typeof firstError === 'string') {
+             toast.error(firstError);
+           } else {
+             toast.error("注册失败，请检查输入");
+           }
+        } else {
+           toast.error("注册失败");
+        }
+      } else {
+        toast.error("无法连接到服务器");
+      }
     }
   };
 
@@ -71,12 +91,12 @@ const SignupPage = () => {
         <i className="ring-item"></i>
 
         <div className="login">
-          <h2>Sign Up</h2>
+          <h2>注册</h2>
           <form onSubmit={handleSubmit}>
             <div className="inputBx">
               <input
                 type="text"
-                placeholder="Username"
+                placeholder="用户名"
                 name="username"
                 value={formData.username}
                 onChange={handleChange}
@@ -85,7 +105,7 @@ const SignupPage = () => {
             <div className="inputBx">
               <input
                 type="password"
-                placeholder="Password"
+                placeholder="密码"
                 name="password"
                 value={formData.password}
                 onChange={handleChange}
@@ -94,21 +114,21 @@ const SignupPage = () => {
             <div className="inputBx">
               <input
                 type="password"
-                placeholder="Confirm Password"
+                placeholder="确认密码"
                 name="confirmPassword"
                 value={formData.confirmPassword}
                 onChange={handleChange}
               />
             </div>
             <div className="inputBx">
-              <input type="submit" value="Sign Up" />
+              <input type="submit" value="注册" />
             </div>
           </form>
           <div className="links">
-            Already have an account?
+            已有账号？
             <Link className="link" href="/login">
               {" "}
-              Login
+              去登录
             </Link>
           </div>
         </div>
