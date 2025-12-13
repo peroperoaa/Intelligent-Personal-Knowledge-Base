@@ -14,7 +14,7 @@ load_dotenv()
 
 # Initialize Pinecone
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-INDEX_NAME = "notecraft"
+INDEX_NAME = "teamfight-tactics-knowledges"
 
 if not PINECONE_API_KEY:
     print("Warning: PINECONE_API_KEY not found.")
@@ -135,9 +135,8 @@ def query_ai(query: str):
         index = get_index()
         results = index.query(
             vector=query_embedding,
-            top_k=3,
+            top_k=5,
             include_metadata=True
-            # namespace="" # Use default namespace
         )
         
         context_text = ""
@@ -151,17 +150,17 @@ def query_ai(query: str):
         if not context_text:
             context_text = "No relevant context found in the knowledge base."
 
-        # 3. Initialize LLM with OpenRouter
+        # 3. Initialize LLM with DeepSeek (using the key stored in OPEN_ROUTER_API_KEY)
         open_router_key = os.getenv("OPEN_ROUTER_API_KEY")
         if not open_router_key:
             raise ValueError("OPEN_ROUTER_API_KEY not found in environment variables")
 
-        print(f"Initializing ChatOpenAI with model: meta-llama/llama-3.3-70b-instruct:free")
+        print(f"Initializing ChatOpenAI with model: deepseek-chat")
         
         llm = ChatOpenAI(
-            model="meta-llama/llama-3.3-70b-instruct:free", 
+            model="deepseek-chat", 
             api_key=open_router_key,
-            base_url="https://openrouter.ai/api/v1",
+            base_url="https://api.deepseek.com",
             temperature=0
         )
 
